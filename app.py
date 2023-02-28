@@ -17,6 +17,10 @@ import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
 import nltk
+from datetime import date as dt
+from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
+import string
 
 st.set_page_config(layout="centered")
 
@@ -92,14 +96,22 @@ with dataset:
         tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
     elif file.name == 'additional_notes.csv':
         additional_notes = pd.read_csv(file)
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/new_resulting_factors.csv")
+        tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
     elif file.name == 'new_resulting_factors.csv':
+        additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
         new_resulting_factors = pd.read_csv(file)
+        tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
     elif file.name == 'tbi_incident.csv':
+        additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/new_resulting_factors.csv")
         tbi_incident = pd.read_csv(file)
     else:
-        st.write('Please upload a file with the name additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv')        
+        st.write('Please upload a csv file with the name additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv')        
         
 with eda:
+    st.header('Exploratory Data Analysis')
+    
     fig = plt.figure(figsize=(16, 8))
     ax = sns.countplot(x="factor", data=new_resulting_factors, order=pd.value_counts(new_resulting_factors['factor']).iloc[:10].index)
     plt.xticks(rotation=90)
@@ -154,6 +166,54 @@ with eda:
     plt.title("Gender Frequencies")
     
     st.pyplot(fig)
+    
+    
+with preprocessing:
+    patient_attributes = pd.merge(left=patient_info, right = symptom_details, left_on="patient_id", right_on="patient_id") 
+
+    patient_attributes['date_of_birth_clean'] = pd.to_datetime(np.where(pd.to_datetime(patient_attributes['date_of_birth']).dt.year > dt.today.year, 
+                                                        (pd.to_datetime(patient_attributes['date_of_birth']).dt.year - 100).astype(str) + '-' + pd.to_datetime(patient_attributes['date_of_birth']).dt.month.astype(str) + '-' + pd.to_datetime(patient_attributes['date_of_birth']).dt.day.astype(str), 
+                                                        patient_attributes['date_of_birth']))
+
+    patient_attributes['age'] =  (pd.to_datetime(dt.today) - pd.to_datetime(patient_attributes['date_of_birth_clean']))
+    patient_attributes['age'] = round((patient_attributes['age'].astype(str).str.split(' ',expand=True)[0].astype(int))/365.25,2)
+    
+    patient_attributes = patient_attributes[['patient_id', 'age', 'gender', 'patient_type', 'id', 'details']]
+
+    patient_attributes_notes = pd.merge(left=additional_notes, right = patient_attributes, left_on="patient_id", right_on="patient_id") 
+    patient_attributes_notes = patient_attributes_notes[['id_x', 'patient_id', 'note', 'logged_at', 'age', 'gender', 'patient_type', 'details','additional_notes_date']]
+
+    master_data = pd.merge(left=new_resulting_factors, right = patient_attributes_notes, left_on=["symptom_date", "patient_about_id"], right_on=["additional_notes_date", "patient_id"]) 
+    master_data = master_data[['patient_id', 'patient_type', 'age', 'gender',  'details', 
+                            'had_symptom', 'severity', 'description', 'factor', 'category', 'subcategory',
+                            'logged_at_x',  'note']]
+    # Fill Nas
+    master_data['had_symptom'] = master_data['had_symptom'].fillna('False')
+    master_data['description'] = master_data['description'].fillna('False')
+    master_data['factor'] = master_data['factor'].fillna('None')
+    master_data['category'] = master_data['category'].fillna('None')
+    master_data['subcategory'] = master_data['subcategory'].fillna('None')
+    master_data['note'] = master_data['note'].fillna('None')
+    master_data['severity'] = master_data['severity'].fillna(master_data['severity'].mean())
+    master_data = master_data.rename(columns={'logged_at_x':'log_time'})  
+    master_data['agg_patient'] = master_data['patient_type'] + master_data['factor'] + master_data['subcategory']
+
+    stop = set(stopwords.words('english'))
+    exclude = set(string.punctuation)
+    lemma = WordNetLemmatizer()
+    
+    def clean(doc):
+        stop_free = " ".join([i for i in doc.lower().split() if i not in stop])
+        punc_free = ''.join(ch for ch in stop_free if ch not in exclude)
+        normalized = " ".join(lemma.lemmatize(word) for word in punc_free.split())
+        return normalized
+
+    master_data.note_clean = master_data.note.apply(lambda x: x.encode('ascii', 'ignore').decode('ascii'))
+
+
+    doc_clean = [clean(doc).split() for doc in master_data.note]  
+
+    master_data.note = doc_clean
     
 with models:
     st.header('Time to train the model!')
