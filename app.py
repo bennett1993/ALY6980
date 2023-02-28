@@ -1,35 +1,30 @@
+import pandas as pd
+pd.set_option('display.max_columns', 500)
+from pathlib import Path
+import os
+import glob
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(font_scale=1.5)
+import nbconvert
+import numpy as np
+import scipy
+import statsmodels.formula.api as smf
+import statsmodels.api as sm
+import warnings
+warnings.filterwarnings('ignore')
 import streamlit as st
-
-@st.cache
-def import_modules():
-    import pandas as pd
-    pd.set_option('display.max_columns', 500)
-    from pathlib import Path
-    import os
-    import glob
-    from IPython.core.interactiveshell import InteractiveShell
-    InteractiveShell.ast_node_interactivity = "all"
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    sns.set(font_scale=1.5)
-    import nbconvert
-    import numpy as np
-    import scipy
-    import statsmodels.formula.api as smf
-    import statsmodels.api as sm
-    import warnings
-    warnings.filterwarnings('ignore')
-    #import streamlit as st
-    from datetime import date as dt
-    import nltk
-    nltk.download('stopwords')
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
-    from nltk.corpus import stopwords
-    from nltk.stem.wordnet import WordNetLemmatizer
-    import string
-
-import_modules()
+from datetime import date as dt
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
+import string
+from keybert import KeyBERT
 
 st.set_page_config(layout="centered")
 
@@ -226,7 +221,76 @@ with preprocessing:
     master_data.note = doc_clean
     
 with models:
-    st.header('Time to train the model!')
-    st.text('Here you get to choose the parameters of the keyword extration model')
+    st.header('BERT Model')
+
+    word_bank = list()
+    row = list()
+
+    kw_model = KeyBERT()
+
+    t = -1
+
+    for i in range(len(master_data['note'])):
+        
+        word_bank.append(kw_model.extract_keywords(master_data['note'][i]))
+        
+        t = t + 1
+        
+        row.append(t)
     
     
+    word_bank2 = word_bank.copy()
+    key_word_dict = {'index':row,'key_words':word_bank2,'key_word_1':None,'key_word_2':None,'key_word_3':None,'key_word_4':None,'key_word_5':None}
+    key_word_dataframe = pd.DataFrame(key_word_dict)
+
+    for i in range(len(key_word_dataframe)):
+        try: 
+            key_word_dataframe['key_word_1'][i] = key_word_dataframe['key_words'][i][0][0][0]
+            key_word_dataframe['key_word_2'][i] = key_word_dataframe['key_words'][i][1][0][0]
+            key_word_dataframe['key_word_3'][i] = key_word_dataframe['key_words'][i][2][0][0]
+            key_word_dataframe['key_word_4'][i] = key_word_dataframe['key_words'][i][3][0][0]
+            key_word_dataframe['key_word_5'][i] = key_word_dataframe['key_words'][i][4][0][0]
+        except:
+            pass
+    
+    patient_words = pd.merge(left=master_data, right=key_word_dataframe, left_index=True, right_index=True, how='left')
+    patient_words = patient_words[['patient_id', 'key_word_1', 'key_word_2', 'key_word_3', 'key_word_4', 'key_word_5']].drop_duplicates()
+
+    patient_words = patient_words.dropna(subset=['key_word_1', 'key_word_2'])
+
+
+    patient_words['key_word_3'] = patient_words['key_word_3'].fillna(value=pd.np.nan).fillna(" ")
+    patient_words['key_word_4'] = patient_words['key_word_4'].fillna(value=pd.np.nan).fillna(" ")
+    patient_words['key_word_5'] = patient_words['key_word_5'].fillna(value=pd.np.nan).fillna(" ")
+
+
+
+    patients = pd.unique(patient_words['patient_id'])
+    patient_word_bank = pd.DataFrame()
+
+
+    for patient in patients:
+
+        cols = ['key_word_1', 'key_word_2', 'key_word_3', 'key_word_4', 'key_word_5']
+        patient_words['word_bank'] = patient_words[cols].apply(lambda row: ','.join(row.values.astype(str)), axis=1)
+        df = patient_words[['patient_id','word_bank']].drop_duplicates().reset_index()
+        patient_word_bank = pd.concat([patient_word_bank,df])
+    patient_word_bank = patient_word_bank.drop_duplicates()
+
+            
+    patient_word_bank = patient_word_bank.groupby(['patient_id'])['word_bank'].transform(lambda x: ','.join(x)).reset_index().drop_duplicates()
+    #patient_word_bank = pd.DataFrame(patient_word_bank).reset_index()
+
+    for i in range(len(patient_word_bank)):
+        patient_word_bank['word_bank'][i] = patient_word_bank['word_bank'][i].replace(',', ' ')
+        
+    pat_id = patient_words.reset_index()
+    pat_id = pat_id[['patient_id']]
+
+    patient_word_bank = pd.merge(left=patient_word_bank,right=pat_id,right_index=True,left_index=True,how='left')
+
+    patient_word_bank = patient_word_bank[['patient_id', 'word_bank']].drop_duplicates()
+
+    patient_word_bank     
+        
+        
