@@ -86,7 +86,7 @@ with dataset:
     file = st.file_uploader("Upload new data in one of the following tables: additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv (make sure file name matches exactly)")
     
     if file == None:
-        additional_notes = pd.read_csv(r"bennett1993/ALY6080/Data/additional_notes.csv")
+        additional_notes = pd.read_csv(r"/app/bennett1993/ALY6080/Data/additional_notes.csv")
         new_resulting_factors = pd.read_csv(r"bennett1993/ALY6080/Data/new_resulting_factors.csv")
         tbi_incident = pd.read_csv(r"bennett1993/ALY6080/Data/tbi_incident.csv")
     elif file.name == 'additional_notes.csv':
