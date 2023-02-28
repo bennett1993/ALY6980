@@ -97,9 +97,7 @@ with dataset:
     elif file.name == 'tbi_incident.csv':
         tbi_incident = pd.read_csv(file)
     else:
-        st.write('Please upload a file with the name additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv')
-        
-# hi        
+        st.write('Please upload a file with the name additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv')        
         
 with eda:
     fig = plt.figure(figsize=(16, 8))
@@ -136,7 +134,7 @@ with eda:
     df['patient_id']= df['patient_about_id'].map(d)
     df = df.iloc[:10]
     
-    fig = plt.figure(figsize=(30, 8))
+    fig = plt.figure(figsize=(16, 8))
     ax = sns.barplot(x = 'patient_id', y = 'number_entries', data=df, order=df.sort_values('number_entries',ascending = False).patient_id)
     plt.title('Subcategory Frequencies')
     
