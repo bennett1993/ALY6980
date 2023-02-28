@@ -20,6 +20,7 @@ from datetime import date as dt
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
