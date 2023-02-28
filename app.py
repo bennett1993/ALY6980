@@ -24,8 +24,6 @@ nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
-import subprocess
-import sys
 from keybert import KeyBERT
 
 st.set_page_config(layout="centered")
