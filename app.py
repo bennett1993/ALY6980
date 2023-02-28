@@ -80,15 +80,15 @@ with business_prob:
 with dataset:
     st.header('Power of Patients Text Datasets')
     
-    patient_info = pd.read_csv(r"C:\Users\Bennett\Documents\NEU\2023\Winter P1\ALY 6080\Streamlit App\Data\patient_info.csv")
-    symptom_details = pd.read_csv(r"C:\Users\Bennett\Documents\NEU\2023\Winter P1\ALY 6080\Streamlit App\Data\symptom_details.csv")
+    patient_info = pd.read_csv(r"bennett1993/ALY6080/Data/patient_info.csv")
+    symptom_details = pd.read_csv(r"bennett1993/ALY6080/Data/symptom_details.csv")
     
     file = st.file_uploader("Upload new data in one of the following tables: additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv (make sure file name matches exactly)")
     
     if file == None:
-        additional_notes = pd.read_csv(r"C:\Users\Bennett\Documents\NEU\2023\Winter P1\ALY 6080\Streamlit App\Data\additional_notes.csv")
-        new_resulting_factors = pd.read_csv(r"C:\Users\Bennett\Documents\NEU\2023\Winter P1\ALY 6080\Streamlit App\Data\new_resulting_factors.csv")
-        tbi_incident = pd.read_csv(r"C:\Users\Bennett\Documents\NEU\2023\Winter P1\ALY 6080\Streamlit App\Data\tbi_incident.csv")
+        additional_notes = pd.read_csv(r"bennett1993/ALY6080/Data/additional_notes.csv")
+        new_resulting_factors = pd.read_csv(r"bennett1993/ALY6080/Data/new_resulting_factors.csv")
+        tbi_incident = pd.read_csv(r"bennett1993/ALY6080/Data/tbi_incident.csv")
     elif file.name == 'additional_notes.csv':
         additional_notes = pd.read_csv(file)
     elif file.name == 'new_resulting_factors.csv':
