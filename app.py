@@ -220,7 +220,7 @@ with preprocessing:
 
     master_data.note = doc_clean
     
-with models:
+'''with models:
     st.header('BERT Model')
 
     word_bank = list()
@@ -294,3 +294,4 @@ with models:
     patient_word_bank     
         
         
+'''
