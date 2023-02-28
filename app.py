@@ -16,6 +16,7 @@ import statsmodels.api as sm
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
+import nltk
 
 st.set_page_config(layout="centered")
 
