@@ -19,6 +19,7 @@ import streamlit as st
 from datetime import date as dt
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
