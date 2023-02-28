@@ -16,8 +16,9 @@ import statsmodels.api as sm
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
-import nltk
 from datetime import date as dt
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
