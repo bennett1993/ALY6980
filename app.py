@@ -169,13 +169,14 @@ with eda:
     
     
 with preprocessing:
+    today = dt.today()
     patient_attributes = pd.merge(left=patient_info, right = symptom_details, left_on="patient_id", right_on="patient_id") 
 
-    patient_attributes['date_of_birth_clean'] = pd.to_datetime(np.where(pd.to_datetime(patient_attributes['date_of_birth']).dt.year > dt.today.year, 
+    patient_attributes['date_of_birth_clean'] = pd.to_datetime(np.where(pd.to_datetime(patient_attributes['date_of_birth']).dt.year > today.year, 
                                                         (pd.to_datetime(patient_attributes['date_of_birth']).dt.year - 100).astype(str) + '-' + pd.to_datetime(patient_attributes['date_of_birth']).dt.month.astype(str) + '-' + pd.to_datetime(patient_attributes['date_of_birth']).dt.day.astype(str), 
                                                         patient_attributes['date_of_birth']))
 
-    patient_attributes['age'] =  (pd.to_datetime(dt.today) - pd.to_datetime(patient_attributes['date_of_birth_clean']))
+    patient_attributes['age'] =  (pd.to_datetime(today) - pd.to_datetime(patient_attributes['date_of_birth_clean']))
     patient_attributes['age'] = round((patient_attributes['age'].astype(str).str.split(' ',expand=True)[0].astype(int))/365.25,2)
     
     patient_attributes = patient_attributes[['patient_id', 'age', 'gender', 'patient_type', 'id', 'details']]
