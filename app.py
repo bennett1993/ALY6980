@@ -30,7 +30,7 @@ import sys
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-install(keybert)
+install('keybert')
 
 from keybert import KeyBERT
 
