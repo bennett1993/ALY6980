@@ -117,10 +117,15 @@ with eda:
  
     st.pyplot(fig)
     
-    second_chart = st.slider('Please choose whether you would like the chart in ascending or descending order')
+    second_chart = st.multiselect('Would you like the following chart in ascending or descending order?',['Ascending', 'Descending'])
+    
+    if second_chart == 'Ascending':
+        second_chart = True
+    elif second_chart == 'Descending':
+        second_chart = False
     
     fig = plt.figure(figsize=(16, 8))
-    ax = sns.countplot(x='subcategory', data = new_resulting_factors, order=new_resulting_factors['subcategory'].value_counts(ascending=False).index)
+    ax = sns.countplot(x='subcategory', data = new_resulting_factors, order=new_resulting_factors['subcategory'].value_counts(ascending=second_chart).index)
     plt.xticks(rotation=90)
     plt.title('Subcategory Frequencies')
     
