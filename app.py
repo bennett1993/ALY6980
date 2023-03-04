@@ -89,28 +89,13 @@ with business_prob:
 with dataset:
     st.header('Power of Patients Text Datasets')
     
-    word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/df1.csv")
+    new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+    word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
     
-    file = st.file_uploader("Upload a new additional_notes.csv , new_resulting_factors.csv, or tbi_incident.csv (make sure file name matches exactly)")
+    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv")
     
-    if file == None:
-        additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/new_resulting_factors.csv")
-        tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
-    elif file.name == 'additional_notes.csv':
-        additional_notes = pd.read_csv(file)
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/new_resulting_factors.csv")
-        tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
-    elif file.name == 'new_resulting_factors.csv':
-        additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
-        new_resulting_factors = pd.read_csv(file)
-        tbi_incident = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/tbi_incident.csv")
-    elif file.name == 'tbi_incident.csv':
-        additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/new_resulting_factors.csv")
-        tbi_incident = pd.read_csv(file)
-    else:
-        st.write('Please upload a csv file with the name additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv')        
+    file      
         
 
 with eda:
@@ -173,8 +158,10 @@ with eda:
     plt.pie(df['count'],labels=df['gender'],autopct='%1.2f%%')
     plt.title("Gender Frequencies")
     
-    st.pyplot(fig)
+    st.pyplot(fig) 
     
-    
-with preprocessing:
-    
+    with models:
+        
+        slider = st.slider('Select', min_value=0.0, max_value=1.0, value=0, step=0.2)
+        
+        slider
