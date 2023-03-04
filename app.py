@@ -89,10 +89,9 @@ with business_prob:
 with dataset:
     st.header('Power of Patients Text Datasets')
     
-    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/patient_info.csv")
-    symptom_details = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/symptom_details.csv")
+    word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/df1.csv")
     
-    file = st.file_uploader("Upload new data in one of the following tables: additional_notes.csv, new_resulting_factors.csv, or tbi_incident.csv (make sure file name matches exactly)")
+    file = st.file_uploader("Upload a new additional_notes.csv , new_resulting_factors.csv, or tbi_incident.csv (make sure file name matches exactly)")
     
     if file == None:
         additional_notes = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/Data/additional_notes.csv")
