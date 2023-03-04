@@ -85,7 +85,7 @@ with business_prob:
             - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
         """)
 
-@st.cache_data()
+@st.cache_resource()
 def get_datasets(file):
     global new_resulting_factors
     global patient_info
