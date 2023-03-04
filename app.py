@@ -107,7 +107,7 @@ with datasets:
         
     file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
       
-    get_datasets(file)            
+    new_resulting_factors, patient_info, word_banks = get_datasets(file)            
         
 
 with eda:
