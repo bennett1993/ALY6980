@@ -35,6 +35,7 @@ datasets = st.container()
 eda = st.container()
 preprocessing = st.container()
 models = st.container()
+models_considered = st.container()
 recommendations = st.container()
 future_research = st.container()
 other_relevant = st.container()
@@ -174,44 +175,130 @@ with eda:
     fig = plt.figure(figsize=(10, 5))    
     df = patient_info.groupby(by='gender').size().reset_index(name='count')
     df = df.sort_values(by='count')
-    plt.pie(df['count'],labels=df['gender'],autopct='%1.2f%%')
+    
+    color1 = st.color_picker('Pick your first color for the pie chart', '#00f900')
+    color2 = st.color_picker('Pick your second color for the pie chart', "#4CAF50")
+    color3 = st.color_picker('Pick your third color for the pie chart', '#FFC0CB')
+    mycolors = [color1, color2, color3]
+    plt.pie(df['count'],labels=df['gender'],autopct='%1.2f%%', colors = mycolors)
     plt.title("Gender Frequencies")
     
     st.pyplot(fig) 
+
+with preprocessing:
+    st.header('Preprocessing Steps')
+    st.markdown(
+        """
+        - Data Prep
+            - Patient id's from all four dataframes were stacked on top of each other, then only unique patient id's were kept and stored in dataframe df1
+            - Data used was the note column of additional_notes, description column of new_resulting_factors, factor column of registered_factors, and describe_event column of tbi_incident 
+            - The four dataframes were grouped on patient_id, unique patient_id was determined, and then strings for each unique patient_id were combined with a space in between
+            - New additional_notes was merged to df1 on patient_id to create master_data dataframe
+            - Other three dataframes were merged with master_data on patient_id
+            - Null and TRUE values in master_data were replaced with empty strings, all strings made lowercase, and stop words removed
+        """)
+
+with models_considered:
+    st.header('Models Considered')
+    st.markdown(
+        """
+        - LDA and LSI:
+            - Pros:
+                - Models are simple and easy to understand
+                - Models are fast and can quickly mine text data
+            - Cons:
+                - Word banks were trivial and did not offer useful results
+        - BERT:
+            - Pros:
+                - Model created meaningful word banks
+                - BERT is a transformer model which is a neural network approach to NLP
+                - Pretrained model using large data sets
+            - Cons:
+                - Black-Box model
+                - Computationally expensive
+        """)
+
+with models:
+    st.header('Model Training Time!')
     
-    with models:
-        st.header('Model Time!')
-        
-        st.write('Please consult the following link for the KeyBERT extract_keywords function parameters: https://maartengr.github.io/KeyBERT/api/keybert.html#keybert._model.KeyBERT.extract_embeddings')
-        
-        a = st.slider('Choose the upper bound for the number of words in each phrase', min_value=1, max_value=3, value=1, step=1)
-        b = st.slider('Choose the number of keywords and phrases you would like', min_value=4, max_value=5, value=4, step=1)
-        c = st.select_slider('Would you like to use Max Sum Distance for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
-        
-        if c == 'Yes':
-            c = True
-        elif c == 'No Thank You':
-            c = False
-            
-        d = st.select_slider('Would you like to use Maximal Marginal Relevance (MMR) for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
-        
-        if d == 'Yes':
-            d = True
-        elif d == 'No Thank You':
-            d = False
-            
-        e = st.slider('If you are using MMR, please choose the diversity of the keyword/keyphrase results:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
-        f = st.slider('If you are using Max Sum Distance, please choose the number of candidates to examine:', min_value=15, max_value=20, value=15, step=5)
-        
-        st.write('Here are your word banks for the chosen parameters:')
-        
-        word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
-        
-        options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
-        
-        filtered_df = word_banks[word_banks['patient_id'].isin(options)]
-        
-        filtered_df[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
+    st.write('Please consult the following link for the KeyBERT extract_keywords function parameters: https://maartengr.github.io/KeyBERT/api/keybert.html#keybert._model.KeyBERT.extract_embeddings')
     
+    a = st.slider('Choose the upper bound for the number of words in each phrase', min_value=1, max_value=3, value=1, step=1)
+    b = st.slider('Choose the number of keywords and phrases you would like', min_value=4, max_value=5, value=4, step=1)
+    c = st.select_slider('Would you like to use Max Sum Distance for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
+    
+    if c == 'Yes':
+        c = True
+    elif c == 'No Thank You':
+        c = False
         
+    d = st.select_slider('Would you like to use Maximal Marginal Relevance (MMR) for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
+    
+    if d == 'Yes':
+        d = True
+    elif d == 'No Thank You':
+        d = False
         
+    e = st.slider('If you are using MMR, please choose the diversity of the keyword/keyphrase results:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+    f = st.slider('If you are using Max Sum Distance, please choose the number of candidates to examine:', min_value=15, max_value=20, value=15, step=5)
+    
+    st.write('Here are your word banks for the chosen parameters:')
+    
+    word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
+    
+    options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
+    
+    filtered_df = word_banks[word_banks['patient_id'].isin(options)]
+    
+    filtered_df[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
+
+with recommendations:
+    st.header('Recommendations and Findings')
+    st.markdown(
+        """
+        - The BERT model is the optimal model and is recommended
+            - The BERT topic model can be used to extract the top N keywords
+            - These words can be combined to design a word bank
+        - Model Best Practices:
+            - Word bank quality is higher with more notes offered by the patients
+            - Model should be ran as needed when new patients are added to the system
+        """)
+    
+with future_research:
+    st.header('Future Research')
+    st.markdown(
+        """
+        - Sentiment analysis using the word banks
+            - Retain historical word banks as the model is re-ran
+            - Use sentiment analysis to understand if the emotion of the patients is changing over time
+        - Enhancing user experience of Streamlit application
+            - Adding more user inputs
+            - Adding to visual appeal
+        """)
+    
+with other_relevant:
+    st.header('Other Relevant Information')
+    st.markdown(
+        """
+        - Possible avenues to explore:
+            - Phone, watch, and wearable applications for convenient data entry
+            - Fingerprint or face login because users often forget their passwords
+            - Voice to text in symptom tracker
+            - Determining patient emotion from voice
+            - Word banks by symptom - common words and phrases used to describe given symptoms
+            - Identify commonalities among patients in different groups (gender, age, etc.)
+        """)
+    
+with citations:
+    st.header('Citations')
+    st.markdown(
+        """
+        1. Baheti, P. (2023, February 2). A Simple Guide to Data Preprocessing in Machine Learning. V7. https://www.v7labs.com/blog/data-preprocessing-guide
+        2. Chenery-Howes, A. (2022, December 21). What Is Latent Semantic Indexing And How Does It Works? Oncrawl - Technical SEO Data. https://www.oncrawl.com/technical-seo/what-is-latent-semantic-indexing/
+        3. Grootendorst, M. P. (n.d.). KeyBERT - KeyBERT. https://maartengr.github.io/KeyBERT/api/keybert.html
+        4. Mall, R. (2021, December 7). Latent Dirichlet Allocation - Towards Data Science. Medium. https://towardsdatascience.com/latent-dirichlet-allocation-15800c852699
+        5. Phone Repair. (n.d.). iFixit. https://www.ifixit.com/Device/Phone
+        6. Sentiment Classification Using BERT. (2021, September 8). GeeksforGeeks. https://www.geeksforgeeks.org/sentiment-classification-using-bert/
+        7. Sullivan, F. &. (2020, September 29). Wearable Technologies and Healthcare: Differentiating the Toys and Tools for Quantified-Self' with Actionable Health Use Cases. Frost & Sullivan. https://www.frost.com/frost-perspectives/wearable-technologies-and-healthcare-differentiating-toys-and-tools-quantified-self-actionable-health-use-cases/
+        8. Zhu, R., Tu, X., & Huang, J. X. (2021). Utilizing BERT for biomedical and clinical text mining. Data Analytics in Biomedical Engineering and Healthcare, 73-103. https://doi.org/10.1016/b978-0-12-819314-3.00005-7
+        """)
