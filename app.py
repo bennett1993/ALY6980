@@ -87,9 +87,6 @@ with business_prob:
 
 @st.cache_resource()
 def get_datasets(file):
-    global new_resulting_factors
-    global patient_info
-    global word_banks
     if file == None:
         new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
         patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
