@@ -168,6 +168,6 @@ with eda:
     
     with models:
         
-        slider = st.slider('Select', min_value=0.0, max_value=1.0, value=0.0, step=0.2)
+        slider2 = st.slider('Select', min_value=0.0, max_value=1.0, value=0.0, step=0.2)
         
-        slider
+        slider2
