@@ -85,7 +85,7 @@ with business_prob:
             - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
         """)
 
-@st.cache_resource()
+@st.cache_data()
 def get_datasets(file):
     if file == None:
         new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
