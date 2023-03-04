@@ -56,6 +56,7 @@ st.markdown(
 with header:
     st.title('ALY 6080 XN Project')
     st.text('TBI Patient Keyword Extraction')
+    st.text('This Streamlit application is linked to this GitHub repository: https://github.com/bennett1993/ALY6080')
 
 with exec_summary:
     st.header('Executive Summary')
