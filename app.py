@@ -31,7 +31,7 @@ st.set_page_config(layout="centered")
 header = st.container()
 exec_summary = st.container()
 business_prob = st.container()
-dataset = st.container()
+datasets = st.container()
 eda = st.container()
 preprocessing = st.container()
 models = st.container()
@@ -85,15 +85,23 @@ with business_prob:
             - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
         """)
 
+@st.cache()
+def get_datasets(file):
+    if file == None:
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+        word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
+    else:
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+        word_banks = pd.read_csv(file)
+    
 
-with dataset:
+with datasets:
     st.header('Power of Patients Text Datasets')
     
-    new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
-    word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
-    
-    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv")              
+    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")  
+    get_datasets(file)            
         
 
 with eda:
@@ -173,4 +181,28 @@ with eda:
         a = st.slider('Choose the upper bound for the number of words in each phrase', min_value=1, max_value=3, value=1, step=1)
         b = st.slider('Choose the number of keywords and phrases you would like', min_value=4, max_value=5, value=4, step=1)
         c = st.select_slider('Would you like to use Max Sum Distance for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
-        c
+        
+        if c == 'Yes':
+            c = True
+        elif c == 'No Thank You':
+            c = False
+            
+        d = st.select_slider('Would you like to use Maximal Marginal Relevance (MMR) for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
+        
+        if d == 'Yes':
+            d = True
+        elif d == 'No Thank You':
+            d = False
+            
+        e = st.slider('If you are using MMR, please choose the diversity of the keyword/keyphrase results:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+        f = st.slider('If you are using Max Sum Distance, please choose the number of candidates to examine:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+        
+        st.write('Here are your word banks for the chosen parameters:')
+        
+        word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
+        
+        st.write('Would you like to choose specific patients?')
+        
+        options = st.multiselect('What are your favorite colors',[word_banks['patient_id']])
+        
+        
