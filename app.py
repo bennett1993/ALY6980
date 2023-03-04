@@ -117,7 +117,7 @@ with eda:
  
     st.pyplot(fig)
     
-    second_chart = st.multiselect('Would you like the following chart in ascending or descending order?',['Ascending', 'Descending'])
+    second_chart = st.radio('Would you like the following chart in ascending or descending order?',('Ascending', 'Descending'))
     
     if second_chart == 'Ascending':
         second_chart = True
