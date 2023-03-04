@@ -209,6 +209,8 @@ with eda:
         
         options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
         
-        options
+        filtered_df = word_banks[word_banks['patient_id'].isin(options)]
+        
+        filtered_df
         
         
