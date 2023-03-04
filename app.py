@@ -203,7 +203,7 @@ with preprocessing:
             """)
         
     with col2: 
-        image = Image.open('https://raw.githubusercontent.com/bennett1993/ALY6080/main/Pics/image8.png')
+        image = Image.open('https://raw.githubusercontent.com/bennett1993/ALY6080/main/image8.png')
         st.image(image, caption='(Baheti, 2023)')
 
 with models_considered:
