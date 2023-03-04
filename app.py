@@ -116,7 +116,7 @@ with eda:
     st.pyplot(fig)
     
     second_chart = st.radio('Would you like the following chart in ascending or descending order?',('Ascending', 'Descending'))
-    color = st.color_picker('Pick A Color', '#00f900')
+    color = st.color_picker('Pick a color for the following chart', '#00f900')
     
     if second_chart == 'Ascending':
         second_chart = True
@@ -166,6 +166,11 @@ with eda:
     st.pyplot(fig) 
     
     with models:
+        st.header('Model Time!')
         
-        a = st.slider('Choose keyphrase_ngram_range parameter right bound', min_value=1, max_value=3, value=1, step=1)
-        b = st.slider('Choose top_n parameter', min_value=1, max_value=3, value=1, step=1)
+        st.write('Please consult the following link for the KeyBERT extract_keywords function parameters: https://maartengr.github.io/KeyBERT/api/keybert.html#keybert._model.KeyBERT.extract_embeddings')
+        
+        a = st.slider('Choose the upper bound for the number of words in each phrase', min_value=1, max_value=3, value=1, step=1)
+        b = st.slider('Choose the number of keywords and phrases you would like', min_value=4, max_value=5, value=4, step=1)
+        c = st.select_slider('Would you like to use Max Sum Distance for the determination of keywords and phrases?', options=['Yes', 'No Thank You'])
+        c
