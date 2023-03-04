@@ -205,11 +205,11 @@ with preprocessing:
 
 with models_considered:
     st.header('Models Considered')
-    image1 = Image.open('image9.png')
+    image1 = Image.open('image9.jpeg')
     st.image(image1, caption='(Mall, 2021)')
     image2 = Image.open('image10.png')
     st.image(image2, caption='(Chenery-Howes, 2022)')
-    image3 = Image.open('image11.png')
+    image3 = Image.open('image11.jpeg')
     st.image(image3, caption='(Zhu et al., 2021)')
     
     st.markdown(
@@ -295,9 +295,9 @@ with future_research:
 with other_relevant:
     st.header('Other Relevant Information')
     
-    image5 = Image.open('image13.png')
+    image5 = Image.open('image13.jpeg')
     st.image(image5, caption='(“Phone Repair,” n.d.)')
-    image6 = Image.open('image14.png')
+    image6 = Image.open('image14.jpeg')
     st.image(image6, caption='(Sullivan, 2020)')
     
     st.markdown(
