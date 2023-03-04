@@ -25,6 +25,7 @@ from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
 from keybert import KeyBERT
+from PIL import Image
 
 st.set_page_config(layout="centered")
 
@@ -187,16 +188,23 @@ with eda:
 
 with preprocessing:
     st.header('Preprocessing Steps')
-    st.markdown(
-        """
-        - Data Prep
-            - Patient id's from all four dataframes were stacked on top of each other, then only unique patient id's were kept and stored in dataframe df1
-            - Data used was the note column of additional_notes, description column of new_resulting_factors, factor column of registered_factors, and describe_event column of tbi_incident 
-            - The four dataframes were grouped on patient_id, unique patient_id was determined, and then strings for each unique patient_id were combined with a space in between
-            - New additional_notes was merged to df1 on patient_id to create master_data dataframe
-            - Other three dataframes were merged with master_data on patient_id
-            - Null and TRUE values in master_data were replaced with empty strings, all strings made lowercase, and stop words removed
-        """)
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown(
+            """
+            - Data Prep
+                - Patient id's from all four dataframes were stacked on top of each other, then only unique patient id's were kept and stored in dataframe df1
+                - Data used was the note column of additional_notes, description column of new_resulting_factors, factor column of registered_factors, and describe_event column of tbi_incident 
+                - The four dataframes were grouped on patient_id, unique patient_id was determined, and then strings for each unique patient_id were combined with a space in between
+                - New additional_notes was merged to df1 on patient_id to create master_data dataframe
+                - Other three dataframes were merged with master_data on patient_id
+                - Null and TRUE values in master_data were replaced with empty strings, all strings made lowercase, and stop words removed
+            """)
+        
+    with col2: 
+        image = Image.open('https://github.com/bennett1993/ALY6080/blob/main/Pics/image8.png')
+        st.image(image, caption='(Baheti, 2023)')
 
 with models_considered:
     st.header('Models Considered')
