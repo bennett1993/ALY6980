@@ -233,7 +233,7 @@ with models_considered:
 with models:
     st.header('Model Training Time!')
     
-    st.write('Please consult the following link for the KeyBERT extract_keywords function parameters: https://maartengr.github.io/KeyBERT/api/keybert.html#keybert._model.KeyBERT.extract_embeddings')
+    st.write('Please consult the following link for the KeyBERT extract_keywords function parameters: https://maartengr.github.io/KeyBERT/api/keybert.html#keybert._model.KeyBERT.extract_keywords')
     
     a = st.slider('Choose the upper bound for the number of words in each phrase', min_value=1, max_value=3, value=1, step=1)
     b = st.slider('Choose the number of keywords and phrases you would like', min_value=4, max_value=5, value=4, step=1)
