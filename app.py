@@ -133,10 +133,10 @@ with eda:
         
     st.pyplot(fig)
     
-    df = new_resulting_factors.groupby('patient_about_id').size().reset_index(name='number_entries')
+    df = new_resulting_factors.groupby('patient_id').size().reset_index(name='number_entries')
     df = df.sort_values(by='number_entries',ascending=False)
-    d = dict([(y,x+1) for x,y in enumerate(sorted(set(df['patient_about_id'])))])
-    df['patient_id']= df['patient_about_id'].map(d)
+    d = dict([(y,x+1) for x,y in enumerate(sorted(set(df['patient_id'])))])
+    df['patient_id']= df['patient_id'].map(d)
     df = df.iloc[:10]
     
     fig = plt.figure(figsize=(16, 8))
