@@ -85,7 +85,7 @@ with business_prob:
             - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
         """)
 
-@st.cache()
+@st.cache_data()
 def get_datasets(file):
     if file == None:
         new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
@@ -100,7 +100,12 @@ def get_datasets(file):
 with datasets:
     st.header('Power of Patients Text Datasets')
     
-    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")  
+    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
+    
+    new_resulting_factors = 0
+    patient_info = 0
+    word_banks = 0
+      
     get_datasets(file)            
         
 
@@ -110,7 +115,7 @@ with eda:
     first_chart = st.slider('Please choose the number of factors that you would like to see', min_value=1, max_value=20, value=10, step=1)
     
     fig = plt.figure(figsize=(16, 8))
-    ax = sns.countplot(x="factor", data=new_resulting_factors, order=pd.value_counts(new_resulting_factors['factor']).iloc[:first_chart].index)
+    ax = sns.countplot(x="factor", data = new_resulting_factors, order=pd.value_counts(new_resulting_factors['factor']).iloc[:first_chart].index)
     plt.xticks(rotation=90)
     plt.title('Top f"{}" Factor Frequencies')
     
