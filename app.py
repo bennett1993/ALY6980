@@ -201,7 +201,7 @@ with eda:
             d = False
             
         e = st.slider('If you are using MMR, please choose the diversity of the keyword/keyphrase results:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
-        f = st.slider('If you are using Max Sum Distance, please choose the number of candidates to examine:', min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+        f = st.slider('If you are using Max Sum Distance, please choose the number of candidates to examine:', min_value=15, max_value=20, value=15, step=5)
         
         st.write('Here are your word banks for the chosen parameters:')
         
