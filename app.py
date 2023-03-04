@@ -209,6 +209,6 @@ with eda:
         
         options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
         
-        options
+        options[0]
         
         
