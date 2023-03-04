@@ -138,11 +138,12 @@ with eda:
         
     st.pyplot(fig)
     
+    third_chart = st.slider('Please choose the number of patients that you would like to see', min_value=1, max_value=20, value=10, step=1)
     df = new_resulting_factors.groupby('patient_id').size().reset_index(name='number_entries')
     df = df.sort_values(by='number_entries',ascending=False)
     d = dict([(y,x+1) for x,y in enumerate(sorted(set(df['patient_id'])))])
     df['patient_id']= df['patient_id'].map(d)
-    df = df.iloc[:10]
+    df = df.iloc[:third_chart]
     
     fig = plt.figure(figsize=(16, 8))
     ax = sns.barplot(x = 'patient_id', y = 'number_entries', data=df, order=df.sort_values('number_entries',ascending = False).patient_id)
@@ -167,6 +168,6 @@ with eda:
     
     with models:
         
-        slider = st.slider('Select', min_value=0.0, max_value=1.0, value=0, step=0.2)
+        slider = st.slider('Select', min_value=0, max_value=1, value=0, step=0.2)
         
         slider
