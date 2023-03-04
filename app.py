@@ -93,9 +93,7 @@ with dataset:
     patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
     word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
     
-    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv")
-    
-    file      
+    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv")              
         
 
 with eda:
@@ -118,6 +116,7 @@ with eda:
     st.pyplot(fig)
     
     second_chart = st.radio('Would you like the following chart in ascending or descending order?',('Ascending', 'Descending'))
+    color = st.color_picker('Pick A Color', '#00f900')
     
     if second_chart == 'Ascending':
         second_chart = True
@@ -125,7 +124,7 @@ with eda:
         second_chart = False
     
     fig = plt.figure(figsize=(16, 8))
-    ax = sns.countplot(x='subcategory', data = new_resulting_factors, order=new_resulting_factors['subcategory'].value_counts(ascending=second_chart).index)
+    ax = sns.countplot(x='subcategory', data = new_resulting_factors, order=new_resulting_factors['subcategory'].value_counts(ascending=second_chart).index,color=color)
     plt.xticks(rotation=90)
     plt.title('Subcategory Frequencies')
     
@@ -168,6 +167,5 @@ with eda:
     
     with models:
         
-        slider2 = st.slider('Select', min_value=0.0, max_value=1.0, value=0.0, step=0.2)
-        
-        slider2
+        a = st.slider('Choose keyphrase_ngram_range parameter right bound', min_value=1, max_value=3, value=1, step=1)
+        b = st.slider('Choose top_n parameter', min_value=1, max_value=3, value=1, step=1)
