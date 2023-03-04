@@ -87,22 +87,19 @@ with business_prob:
 
 @st.cache_data()
 def get_datasets(file):
-    global new_resulting_factors
-    global patient_info
     global word_banks
     if file == None:
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
         word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
     else:
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
         word_banks = pd.read_csv(file)
     
 
 with datasets:
     st.header('Power of Patients Text Datasets')
     
+    new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+        
     file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
       
     get_datasets(file)            
