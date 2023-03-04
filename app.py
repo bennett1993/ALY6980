@@ -263,6 +263,7 @@ with models:
     filtered_df = word_banks[word_banks['patient_id'].isin(options)]
     
     filtered_df[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
+    options
 
 with recommendations:
     st.header('Recommendations and Findings')
