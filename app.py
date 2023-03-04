@@ -207,8 +207,8 @@ with eda:
         
         word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
         
-        st.write('Would you like to choose specific patients?')
+        options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
         
-        options = st.multiselect('What are your favorite colors',word_banks['patient_id'])
+        options
         
         
