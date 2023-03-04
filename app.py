@@ -105,8 +105,7 @@ def get_datasets(file):
 with datasets:
     st.header('Power of Patients Text Datasets')
     
-    new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+    st.write('Reading in datasets...')
         
     file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
       
