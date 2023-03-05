@@ -27,8 +27,8 @@ import string
 from keybert import KeyBERT
 from PIL import Image
 
-st.set_page_config(page_title='Executive Summary, Business Problem, Datasets', layout="centered")
-st.sidebar.header('Executive Summary, Business Problem, Datasets')
+st.set_page_config(page_title='Executive Summary, Business Problem', layout="centered")
+st.sidebar.header('Executive Summary, Business Problem')
 
 header = st.container()
 exec_summary = st.container()
@@ -83,26 +83,3 @@ with business_prob:
             - Make exhaustive lists for dropdown fields, eliminating need for an open-ended 'other' field
             - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
         """)
-
-@st.cache_data()
-def get_datasets(file):
-    if file == None:
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
-        word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
-    else:
-        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
-        word_banks = pd.read_csv(file)
-        
-    return new_resulting_factors, patient_info, word_banks
-    
-
-with datasets:
-    st.header('Power of Patients Text Datasets')
-    
-    st.write('Reading in datasets...')
-        
-    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
-      
-    new_resulting_factors, patient_info, word_banks = get_datasets(file)

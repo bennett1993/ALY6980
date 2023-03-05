@@ -55,15 +55,23 @@ st.markdown(
 )
 
 @st.cache_data()
-def get_datasets():
-    new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
-    patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
-    word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
+def get_datasets(file):
+    if file == None:
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+        word_banks = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/word_banks.csv")
+    else:
+        new_resulting_factors = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/new_resulting_factors.csv")
+        patient_info = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6080/main/patient_info.csv")
+        word_banks = pd.read_csv(file)
         
     return new_resulting_factors, patient_info, word_banks
+
+with datasets: 
     
-with datasets:
-    new_resulting_factors, patient_info, word_banks = get_datasets()  
+    file = st.file_uploader("If there are new word banks, please upload the current word_banks.csv file")
+    
+    new_resulting_factors, patient_info, word_banks = get_datasets(file)
     
 
 with models:
