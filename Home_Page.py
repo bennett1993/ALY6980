@@ -60,3 +60,6 @@ with header:
     st.write('Aytaj Khankishiyeva, Bennett Furman, Biran Fan, Jacob Vandergriff')
     st.write('Welcome to our Streamlit Application!')
     st.write('This Streamlit application is linked to this GitHub repository: https://github.com/bennett1993/ALY6080')
+    
+    image = Image.open('image15.png')
+    st.image(image)
