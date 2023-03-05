@@ -27,8 +27,8 @@ import string
 from keybert import KeyBERT
 from PIL import Image
 
-st.set_page_config(page_title='Home Page', layout="centered")
-st.sidebar.header('Home Page')
+st.set_page_config(page_title='Preprocessing, Models Considered', layout="centered")
+st.sidebar.header('Preprocessing, Models Considered')
 
 header = st.container()
 exec_summary = st.container()
@@ -53,9 +53,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-st.set_page_config(page_title='Preprocessing, Models Considered', layout="centered")
-st.sidebar.header('Preprocessing, Models Considered')
 
 with preprocessing:
     st.header('Preprocessing Steps')
