@@ -116,7 +116,7 @@ with eda:
     
     fig = plt.figure(figsize=(16, 8))
     ax = sns.barplot(x = 'patient_id', y = 'number_entries', data=df, order=df.sort_values('number_entries',ascending = False).patient_id)
-    plt.title('Top '+f"{third_chart}"+' Patients in Regards to Data Input')
+    plt.title('Top '+f"{third_chart}"+' Patients in Regard to Data Input')
     
     for p in ax.patches:
         height = p.get_height()
