@@ -56,6 +56,7 @@ st.markdown(
 
 with header:
     st.title('ALY 6080 XN Project')
-    st.header('TBI Patient Keyword Extraction')
-    st.header('Aytaj Khankishiyeva, Bennett Furman, Biran Fan, Jacob Vandergriff')
+    st.write('TBI Patient Keyword Extraction')
+    st.write('Aytaj Khankishiyeva, Bennett Furman, Biran Fan, Jacob Vandergriff')
+    st.write('Welcome to our Streamlit Application!')
     st.write('This Streamlit application is linked to this GitHub repository: https://github.com/bennett1993/ALY6080')
