@@ -27,7 +27,8 @@ import string
 from keybert import KeyBERT
 from PIL import Image
 
-st.set_page_config(layout="centered")
+st.set_page_config(page_title='Home Page', layout="centered")
+st.sidebar.header('Home Page')
 
 header = st.container()
 exec_summary = st.container()
