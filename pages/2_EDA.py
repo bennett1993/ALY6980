@@ -74,7 +74,7 @@ with eda:
     fig = plt.figure(figsize=(16, 8))
     ax = sns.countplot(x="factor", data = new_resulting_factors, order=pd.value_counts(new_resulting_factors['factor']).iloc[:first_chart].index)
     plt.xticks(rotation=90)
-    plt.title('Top f"{first_chart}" Factor Frequencies')
+    plt.title('Top '+f"{first_chart}"+' Factor Frequencies')
     
     for p in ax.patches:
         height = p.get_height()
