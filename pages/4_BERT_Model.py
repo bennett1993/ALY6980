@@ -100,6 +100,8 @@ with models:
     
     st.write('Here are your word banks for the chosen parameters:')
     
+    f
+    
     word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
     
     options = st.multiselect('Would you like to get word banks for specific patients?',word_banks['patient_id'])
