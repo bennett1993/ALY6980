@@ -101,6 +101,7 @@ with models:
     st.write('Here are your word banks for the chosen parameters:')
     
     e
+    f"{a}_{b}_{c}_{d}_{e}_{f}"
     
     word_banks[['patient_id', f"{a}_{b}_{c}_{d}_{e}_{f}"]]
     
