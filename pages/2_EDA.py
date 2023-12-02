@@ -64,5 +64,4 @@ with milestones:
     #age = Milestones.loc[option, 'AgeGroup']
     selected_row = Milestones[Milestones['Title'] == option]
     name_value = selected_row['ID'].iloc[0]
-    st.write('exerciseID:', name_value)
-    #st.write('age:', age)
+    st.write('exerciseID:', selected_row)
