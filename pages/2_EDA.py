@@ -30,18 +30,8 @@ from PIL import Image
 st.set_page_config(page_title='EDA', layout="centered")
 st.sidebar.header('EDA')
 
-header = st.container()
-exec_summary = st.container()
-business_prob = st.container()
 datasets = st.container()
-eda = st.container()
-preprocessing = st.container()
-models_considered = st.container()
-models = st.container()
-recommendations = st.container()
-future_research = st.container()
-other_relevant = st.container()
-citations = st.container()
+milestones = st.container()
 
 st.markdown(
     """
@@ -65,3 +55,9 @@ def get_datasets():
     
 with datasets:
     DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
+
+
+with milestones:
+    st.header('Choose a Milestone')
+    milestone_titles = Milestones['Title']
+    option = st.selectbox('Choose a Milestone', milestone_titles)
