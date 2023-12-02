@@ -30,18 +30,8 @@ from PIL import Image
 st.set_page_config(page_title='Choose a Milestone', layout="centered")
 st.sidebar.header('Choose a Milestone')
 
-header = st.container()
-milestone = st.container()
-business_prob = st.container()
 datasets = st.container()
-eda = st.container()
-preprocessing = st.container()
-models_considered = st.container()
-models = st.container()
-recommendations = st.container()
-future_research = st.container()
-other_relevant = st.container()
-citations = st.container()
+milestone = st.container()
 
 st.markdown(
     """
