@@ -56,8 +56,11 @@ def get_datasets():
 with datasets:
     DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
 
-
 with milestones:
     st.header('Choose a Milestone')
     milestone_titles = Milestones['Title']
     option = st.selectbox('Choose a Milestone', milestone_titles)
+    exerciseID = Milestones.loc[option, 'ID']
+    age = Milestones.loc[option, 'AgeGroup']
+    st.write('exerciseID:', exerciseID)
+    st.write('age:', age)
