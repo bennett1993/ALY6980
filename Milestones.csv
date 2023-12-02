@@ -6,7 +6,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 5,Opens & closes hands with outstretched arms ,{NAME} can outstretch {HISHER} arms while opening & closing {HISHER} hands,2,0,3
 6,Brings hand to mouth,{NAME} can bring to {HISHER} hand to {HISHER} mouth,2,1,83
 7,Grasps your finger when {HISHER} hand is stroked,{NAME} grasps your finger when you stroke {HISHER} hands,2,1,16
-8,Reflexively grasps an object or finger ,"{NAME} grasps an object or a finger when you place your finger or object in the palm of {HISHER} hand. While this feels intentional, this is actually demonstrates the Palmer grasp reflex.",2,0,19
+8,Reflexively grasps an object or finger,"{NAME} grasps an object or a finger when you place your finger or object in the palm of {HISHER} hand. While this feels intentional, this is actually demonstrates the Palmer grasp reflex.",2,0,19
 9,Arms open outward when tilted back,"When {NAME} is startled (for example, by a loud noise) or abruptly moved, {HESHE} responds by throwing out {HISHER} arms & legs and curling them in again.  What you are witnessing is the Moro reflex.",2,0,16
 10,Orients body in response to your voice,"{NAME} nestles {HISHER} body against you when you talk. Or if someone else is holding {HERHIM}, shifts towards your voice.",3,1,73
 11,Changes behavior in response to you,"{NAME} behaves differently with you, than with other less familiar people in {HISHER} life. {HESHE} is beginning to recognize you by sound & smell.",3,1,94
@@ -16,7 +16,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 15,Startles at loud sounds,{NAME} is startled when {HESHE} hears a loud sound such as car horn or vacuum cleaner. {HESHE} may also startle to everyday sounds that are not particularly loud at first like a door closing.,5,0,16
 16,Looks at your face when held,{NAME} looks at your face when you hold {HERHIM}. Who knew you were so fascinating?!,5,1,95
 17,Stares at diffuse light,{NAME} will stare at a light that is not too bright like the window during the day or ceiling light fixture at night.,5,1,113
-18,Eyes follow red object 6 inches away from sides to side ,Both of {NAME}'s eye move both to the right & the left. Both eyes move together at the same time.,5,1,57
+18,Eyes follow red object 6 inches away from sides to side,Both of {NAME}'s eye move both to the right & the left. Both eyes move together at the same time.,5,1,57
 19,Sucks reflexively when an object is put in mouth,"{NAME} automatically sucks on a pacifier, finger, or bottle when {HISHER} lips are touched with it.",5,0,20
 20,Shuts eyes at bright lights,{NAME} closes {HISHER} eyes in the presence of a bright light such as car headlights or direct sunlight.,5,0,40
 21,Looks at objects 8 to 15 inches away,{NAME} will look at objects 8 to 15 inches away.,5,1,41
@@ -32,7 +32,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 31,Holds head upright when in vertical position,{NAME} can hold up {HISHER} head when held in a sitting position without you having to support the weight of his head.,1,3,224
 32,Holds head upright while lying on stomach,{NAME} can hold his head up 90 degrees from the floor while laying on {HISHER} stomach.,1,3,221
 33,Turns head in all directions while supported,{NAME} can turn head to look at objects of interested while you are holding {HERHIM}.,1,3,222
-34,Kicks at plaything,"{NAME} will kick at and object of interest while being held or lying on {HISHER} back. {NAME} doesn't know how to reach for things yet with {HISHER} arms. In order to engage with a toy, {HESHE} will kick at it. ",1,3,223
+34,Kicks at plaything,"{NAME} will kick at and object of interest while being held or lying on {HISHER} back. {NAME} doesn't know how to reach for things yet with {HISHER} arms. In order to engage with a toy, {HESHE} will kick at it.",1,3,223
 35,Bears weight on legs with sagging at knees,"{NAME} bears weight on {HISHER} legs when feet are flat on floor, but {HISHER} knees will be slightly bent as opposed to locked off.",1,3,231
 36,Rolls from side to stomach,{NAME} can roll onto {HISHER} stomach when placed on both of {HISHER} sides.,1,3,226
 37,Rocks from side to side while on stomach,{NAME} rocks from side to side while on stomach trying to figure out how to roll over.,1,4,335
@@ -54,7 +54,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 53,Rolls from stomach to back,{NAME} can roll from stomach to back without help.,1,6,600
 54,Rolls from back to stomach,{NAME} can roll from back to stomach without help.,1,6,595
 55,Rocks or bounces while in sitting position,{NAME} rocks or bounces while seat. {HESHE} wants to move & {HESHE} does this in preparation for crawling or standing.,1,6,604
-56,Rolls from back to stomach in both directions,{NAME} can roll from back to stomach in both directions regularly. ,1,6,595
+56,Rolls from back to stomach in both directions,{NAME} can roll from back to stomach in both directions regularly.,1,6,595
 57,Rolls from stomach to back in both directions,{NAME} can roll from stomach to back in both directions regularly.,1,6,600
 58,Moves forwards while on stomach,{NAME} moves forward on stomach using the army crawl.,1,6,602
 59,Fully extends arms to raise chest off of floor,{NAME} can push up on arms fully while laying on stomach lifting {HISHER} chest off of the floor. {NAME} is ready to get moving. Only a couple of more milestones until {HESHE} is crawling.,1,6,592
@@ -69,7 +69,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 68,Rocks back & forth while on hands & knees,{NAME} rocks back & forth while on hands & knees. Here we go! {NAME} will be crawling soon!,1,8,908
 69,Crawls forward,{NAME} can crawl forward. Watch out! Here {HESHE} goes!,1,9,1085
 70,Crawls backwards,{NAME} can crawl backwards.,1,9,1084
-71,Crawls on all fours with straight arms & legs ,"{NAME} moves from place to place by ""crawling"" with straight arms & legs called ""Bear walking""",1,9,1083
+71,Crawls on all fours with straight arms & legs,"{NAME} moves from place to place by ""crawling"" with straight arms & legs called ""Bear walking""",1,9,1083
 72,Able sit from crawling position,{NAME} can transition from crawling to sitting position.,1,9,1097
 73,Can lean forward & turn body sideways without falling over,{NAME} can lean forward while in a seated position & turn body sideways without falling over.,1,9,1145
 74,Sits unsupported for up to 10 minutes,{NAME} can sit without support for up to 10 minutes.,1,9,264
@@ -96,16 +96,16 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 95,"Holds out arms, legs & feet to help get dressed & undressed","{NAME} helps you with undressing & dressing by anticipating the next step in the process by holding out {HISHER} arms, legs, & feet.",1,14,1720
 96,Crawls downstairs backwards,{NAME} can crawl down and entire flight of stairs without stopping to sit down.,1,14,1918
 97,Stands from sitting without support,{NAME} has development the strength & balance to stand up from a sitting position without holding onto anyone or anything.,1,14,1909
-98,Squats & stands back up using hands,{NAME} can bend knees into a squat position & stand back up by holding onto a piece of furniture. ,1,15,2013
+98,Squats & stands back up using hands,{NAME} can bend knees into a squat position & stand back up by holding onto a piece of furniture.,1,15,2013
 99,Walks alone with feet wide & arms up,{NAME} walks without help with a wide gate & arms up for balance. Zoom!,1,15,2012
 100,Kneels without support,{NAME} can tall kneel for 1 minute without using hands,1,15,2014
 101,"Walks alone, often falls & bumps into furniture","{NAME} walks unaided, but still falls often & bumps into furniture.",1,16,2118
 102,Maintains balance standing or sitting while using 2 hands to explore toys,{NAME} can play with toys using both hands at the same time while standing or sitting without losing balance,1,16,2119
 103,Can push or pull large toys,{NAME} can push or pull large toys without losing balance most of the time.,1,17,2237
-104,Walks with arms down at sides,{NAME} has sufficient balance to walk with arms down at sides instead of up or out. ,1,17,2240
+104,Walks with arms down at sides,{NAME} has sufficient balance to walk with arms down at sides instead of up or out.,1,17,2240
 105,Can turn head while standing without losing balance,{NAME} no longer loses balance when turning head while standing most of the time.,1,17,2239
 106,Steady on feet,{NAME} maintains sufficient balance to be steady of {HISHER} feet most of time.,1,18,2360
-107,"Can run, although falls easily ","{NAME} has figured out how to get moving faster by running, although {HESHE} falls easily.",1,18,2356
+107,"Can run, although falls easily","{NAME} has figured out how to get moving faster by running, although {HESHE} falls easily.",1,18,2356
 108,Climbs onto adult's chair,{NAME} can climb successfully into and adult-sized chair.,1,18,2355
 109,Walks up steps holding hand two feet at a time,"{NAME} can walk up while holding onto the railing by stepping onto a step, then bring the other foot to meet it on the step before moving onto the next step.",1,18,2359
 110,Is able to carry a toy while walking,{NAME} can carry a toy while walking without falling over.,1,19,2480
@@ -153,7 +153,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 152,Jumps from 18 inch height with one foot leading,{NAME} can jump off 2 steps or from a height of 18 inches with one foot leading without losing balance most of the time.,1,42,
 153,Can broad jump 10-24 inches,{NAME} can jump from a standing position 10 - 24 inches without losing balance most of the time.,1,43,
 154,Stand on one foot,{NAME} can balance on one foot for 10 seconds or more without losing balance most of the time.,1,44,
-155,Catches a big ball regularly ,{NAME} successfully catches a large ball most of the time.,1,45,
+155,Catches a big ball regularly,{NAME} successfully catches a large ball most of the time.,1,45,
 156,Seeks out various ways to move,"{NAME} likes to move about in unique & varied ways putting strength, agility & balance to the test.",1,45,
 157,Kick a small ball forcefully,{NAME} can kick a small ball with a lot of force most of the time.,1,46,
 158,Can walk on a line,{NAME} can maintain balance while walking on a line for a couple of feet.,1,46,
@@ -164,7 +164,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 163,Attempts to grab at objects,{NAME} tries to use hands to grab a toy that is within reach.,2,2,150
 164,"Closes hand around objects, but does not regard them","{NAME} will hold and object that is in {HISHER} hand, but pays no attention to it.",2,2,152
 165,Grab own hands & bring to midline,{NAME} can successfully grab {HISHER} own hands & bring them to center of chest most of the time.,2,3,252
-166,Holds object & jerks it up & down briefly ,{NAME} jerks a toy up & down briefly while holding onto it.,2,3,253
+166,Holds object & jerks it up & down briefly,{NAME} jerks a toy up & down briefly while holding onto it.,2,3,253
 167,Reaches for bottle with both hands when offered,{NAME} reaches for a bottle using both hands when you offer it to {HERHIM} most of the time.,2,3,254
 168,Grabs at your hair when leaning over,"{NAME} grabs at long hair when it is in reach often tangling fingers in the hair or when successful, pulls hair. This is one of those ""unfortunate"" milestones for people with long hair, but a necessary milestone to achieve.",2,3,250
 169,Brings hands to mouth successfully most of the time,{NAME} can successfully bring hands upto & into mouth most of the time.,2,3,251
@@ -240,7 +240,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 239,Can wave hand in front of own face,{NAME} can wave hands in front of own face successfully most of the time.,2,15,2002
 240,Turn a few pages at a time,{NAME} can turn a few paper pages in a book at a time.,2,16,1824
 241,Starts to be able to take off clothing,{NAME} begins to be able to take off clothing successfully.,2,16,2143
-242,Can hold 2 fingers up ,{NAME} can successfully hold index & middle fingers up & secure other fingers with thumb most of the time.,2,16,2145
+242,Can hold 2 fingers up,{NAME} can successfully hold index & middle fingers up & secure other fingers with thumb most of the time.,2,16,2145
 243,Uses both hands equally to play with & explore toys,{NAME} uses both hands equally to play with & explore toys.,2,16,2198
 244,Draws dots by banging crayon on paper,{NAME} can draw dots by banging crayon on paper.,2,17,2264
 245,Uses hands to help move from one position to another,{NAME} uses hands to help move {HIMSELFHERSELF} from one position to another.,2,17,2265
@@ -267,7 +267,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 266,Builds a block tower of at least 6 -7 blocks,{NAME} can successfully build a block tower of at least 6 -7 blocks without help.,2,26,3205
 267,Turn on the faucet & wash hands,{NAME} can turn on the faucet & wash hands without help most of the time.,2,27,3214
 268,Begins to know how to work snaps,{NAME} can close & open snaps with help.,2,28,3392
-269,Can pull up a zipper ,{NAME} can pull up a zipper with help.,2,28,3391
+269,Can pull up a zipper,{NAME} can pull up a zipper with help.,2,28,3391
 270,Can pull a zipper down,{NAME} can pull down a zipper with help.,2,29,3486
 271,Complete a 3 or 4 piece puzzle,{NAME} can successfully complete a 3 or 4 piece puzzle without help most of the time.,2,30,3592
 272,Builds a 8 block tower,{NAME} can successfully build a tower of 8 blocks without help most of the time.,2,31,3700
@@ -315,7 +315,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 314,Imitates simple movements,{NAME} imitates simple movements of others.,3,6,656
 315,Can pull cloth off of {HISHER} own face,{NAME} can pull a cloth off of {HISHER} own face.,3,6,653
 316,Looks for person out of sight,{NAME} looks for person who is out of sight.,3,6,654
-317,Tries new actions ,{NAME} tries new actions.,3,6,656
+317,Tries new actions,{NAME} tries new actions.,3,6,656
 318,Helps by pulling leg out of pants when being undressed,{NAME} is aware that{HESHE} is being undressed & helps by pulling leg out of pants.,3,6,708
 319,Plays with a single toy for 2 - 3 minutes,{NAME} has increased attention span & can play with a single toy for 2 - 3 minutes.,3,6,655
 320,Mimics nodding or shaking head,{NAME} can observe you nodding or shaking your head & mimic it.,3,7,807
@@ -372,7 +372,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 371,Points to and image that represents a word,{NAME} can point to and image that represents the word that is spoken such as pointing to the cat in the illustration of a group of animals in a book.,3,20,2617
 372,Tries to solve {HISHER} own small problems,{NAME} is beginning to try to solve {HISHER} own small problems like looking for missing toy.,3,20,2615
 373,Understands the difference between up & down,"{NAME} understands the positional words ""up"" & ""down"".",3,21,2720
-374,Combines two different imaginary scenarios ,{NAME} combines two different scenarios with imaginary objects during imaginative play like going to the grocery store & then coming home.,3,21,2721
+374,Combines two different imaginary scenarios,{NAME} combines two different scenarios with imaginary objects during imaginative play like going to the grocery store & then coming home.,3,21,2721
 375,Can plan & explain a simple task,"{NAME} can explain {HISHER} plan to complete a simple task in simple terms such as taking food out, to cut, cook, & eat food.",3,21,2723
 376,Imaginative play becomes more complicated,{NAME} imaginative play becomes more complex such as using the tie from a bathrobe as a firehose & a bowl is a firehat.,3,21,2722
 377,Know uses of everyday objects,{NAME} know uses of everyday objects such as spoon or bottle.,3,22,2829
@@ -386,7 +386,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 385,Follows 2-step instructions,"{NAME} can follow 2-step instructions such as, ""Go in the other room & get your shoes.""",3,26,3190
 386,Names known images in books,"{NAME} can recognize & name images that {HESHE} knows in books such as a car, house, or tree.",3,26,3210
 387,Asks questions about the world,"{NAME} ask questions about the world such as, ""Where does the squirrel sleeps at night?"" or ""Why is the sky blue?""",3,27,3309
-388,Stacks rings in order from large to small,{NAME} is able stack rings in order from large to small demonstrating understanding of relative size & sequencing. ,3,27,3308
+388,Stacks rings in order from large to small,{NAME} is able stack rings in order from large to small demonstrating understanding of relative size & sequencing.,3,27,3308
 389,Group toys by type size or color,{NAME} can group toys by type size or color.,3,28,3399
 390,Sits to look at books independently,"{NAME} can sit to look at books independently even if, [{HESHE} prefers to have you read the book to {HERHIM}.",3,28,3400
 391,Asks questions to understand words,{NAME} asks questions to understand words {HESHE} doesn't understand.,3,29,3501
@@ -394,8 +394,8 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 393,Recognizes {HIMSELFHERSELF} in the mirror,{NAME} can identify {HIMSELFHERSELF} when looking in a mirror.,3,30,3595
 394,Explores surroundings,{NAME} is curious & explores {HISHER} surroundings.,3,30,3596
 395,Understands the order sequence of familiar events,"{NAME} understands the order sequence of familiar events such as getting undressed, putting on pajamas, brushing teeth, read a story, & go to bed.",3,31,3714
-396,Can pay attention for 5 minutes,{NAME} can pay attention to a toy or and activity for 5 minutes before getting distracted. ,3,31,3713
-397,Can create & explain unique play scenarios ,{NAME} can create & explain unique play scenarios that {HESHE} has never experienced like flying on a dragon.,3,31,3730
+396,Can pay attention for 5 minutes,{NAME} can pay attention to a toy or and activity for 5 minutes before getting distracted.,3,31,3713
+397,Can create & explain unique play scenarios,{NAME} can create & explain unique play scenarios that {HESHE} has never experienced like flying on a dragon.,3,31,3730
 398,Finds unique ways to solve problems,{NAME} finds unique ways to solve problems such as using a broom to retrieve a toy from underneath the couch.,3,32,3820
 399,Can detect patterns,"{NAME} can detect patterns such as matching edges of puzzle pieces to each other, in clapping sequences or in sequence of stripes.",3,33,3935
 400,Matches circles & squares,{NAME} can match circles & squares.,3,33,3933
@@ -570,7 +570,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 569,May get upset with major changes in routine,{NAME} may get upset with major changes in routine such as taking a nap at a different time or not going to the park.,4,43,
 570,Begins to share toys,{NAME} is beginning to share toys with others.,4,46,
 571,Separates easily from you,{NAME} separates easily from you without becoming distressed.,4,47,
-572,Begins to find ways to resolve arguments ,{NAME} is beginning to find ways to resolve arguments.,4,47,
+572,Begins to find ways to resolve arguments,{NAME} is beginning to find ways to resolve arguments.,4,47,
 573,Follows objects with eyes,{NAME} follows objects with eyes.,5,2,186
 574,Gazes towards moving object,{NAME} gazes towards moving object.,5,2,197
 575,Aware of sounds & smells,{NAME} is aware of sounds & smells.,5,2,199
@@ -664,8 +664,8 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 663,Makes various sounds & laughs,{NAME} makes various sounds & laughs.,6,6,677
 664,Listens & imitates sounds,{NAME} listens & imitates sounds.,6,6,722
 665,"""Interrupts"" when people are talking","{NAME} ""interrupts"" when people are talking.",6,6,722
-666,Babbles ,{NAME} babbles by making random noises.,6,6,1058
-667,Makes sing-song sounds ,{NAME} makes sing-song sounds.,6,6,725
+666,Babbles,{NAME} babbles by making random noises.,6,6,1058
+667,Makes sing-song sounds,{NAME} makes sing-song sounds.,6,6,725
 668,"Makes speech-like sounds such as ""pa"", ""ba"" & ""mi""","{NAME} makes speech-like sounds such as ""pa"", ""ba"" & ""mi"".",6,6,724
 669,"Makes ""mmm mmm"" sound when tastes something yummy","{NAME} makes ""mmm mmm"" sound when tastes something yummy.",6,6,723
 670,Babbles long strings of sounds,"{NAME} babbles long strings of sounds such as ""babababa"", ""mimi"", ""upupup"".",6,7,1257
@@ -707,7 +707,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 706,Recognize words for common items,"{NAME} recognize words for common items such as plate, car, dog, or tree.",6,12,1965
 707,"Says 2 - 6 words other than ""mama"" & ""dada""","{NAME} says 2 - 6 words other than ""mama"" & ""dada"".",6,13,1890
 708,"Says ""uh-oh"" when something drops","{NAME} says ""uh-oh"" when something drops.",6,13,1894
-709,Makes animals sounds ,{NAME} makes animals sounds when pointing to and image of the animal.,6,13,1896
+709,Makes animals sounds,{NAME} makes animals sounds when pointing to and image of the animal.,6,13,1896
 710,Imitates simple gestures to communicate,{NAME} imitates simple gestures to communicate like blowing a kiss.,6,13,1882
 711,Communicates preferences,{NAME} communicates preferences such as a favorite toy.,6,13,1851
 712,Indicates preferred food or toy when not offered,{NAME} indicates preferred food or toy when not offered such as bringing you a different snack then the one you are preparing.,6,13,1885
@@ -744,7 +744,7 @@ ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
 743,Can names things you have seen together,{NAME} can names the things you have seen together like when on a walk such as a dog or firetruck.,6,19,2555
 744,Begins to use verbs,"{NAME} uses verbs like ""do,"" help,"" ""go"".",6,19,2556
 745,Uses words to request food or drink,{NAME} uses words to request food or drink.,6,19,2570
-746,Repeats new words ,{NAME} repeats new words.,6,20,2667
+746,Repeats new words,{NAME} repeats new words.,6,20,2667
 747,Says the names of 2 colors,{NAME} says the names of 2 colors.,6,20,2668
 748,Uses adjectives,"{NAME} uses descriptive words such as ""hot"", ""dirty"", ""big"".",6,20,2669
 749,Uses words for frequented places,"{NAME} uses words for frequented places like ""park"".",6,20,2670
