@@ -46,10 +46,10 @@ st.markdown(
 
 @st.cache_data()
 def get_datasets():
-    DevelopmentCategory = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=DevelopmentCategory)
-    Milestones = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=Milestones)
-    AgeGroup = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=AgeGroup)
-    Exercises = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=Exercises)
+    DevelopmentCategory = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/DevelopmentCategory.csv")
+    Milestones = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Milestones.csv")
+    AgeGroup = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/AgeGroup.csv")
+    Exercises = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Exercises.csv")
         
     return DevelopmentCategory, Milestones, AgeGroup, Exercises
     

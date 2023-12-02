@@ -1,0 +1,813 @@
+ID,Title,Description,DevelopmentCategory,AgeGroup,excerciseID
+1,Rooting reflex,"{NAME} will turn {HISHER} head to the right, mouth open, ready to suck, if you gently stroke your {NAME}'s cheek near right side of {HISHER} mouth with your hand. {HESHE} would turn to the left if you stroke  the left side of {HISHER}mouth.",1,0,3284
+2,Tonic neck reflex,"When {NAME}'s head is turned to the right side, {HESHE} automatically straightens the right arm while bending the left arm & Contrariwise. This is also known as the fencer's pose.",1,0,13
+3,Step reflex - Automatic walking,"When you hold {NAME} & {HISHER} feet touch a hard surface, {HESHE} may imitate taking steps. Before posting on social media that your newborn is already walking, this movement is a reflex called ""automatic walking"". ",1,1,74
+4,Curls toes when foot is stroked,"{NAME} will flex {HISHER} foot & {HISHER} toes will curl, when you touch the sole of {NAME}'s foot",2,0,34
+5,Opens & closes hands with outstretched arms ,{NAME} can outstretch {HISHER} arms while opening & closing {HISHER} hands,2,0,3
+6,Brings hand to mouth,{NAME} can bring to {HISHER} hand to {HISHER} mouth,2,1,83
+7,Grasps your finger when {HISHER} hand is stroked,{NAME} grasps your finger when you stroke {HISHER} hands,2,1,16
+8,Reflexively grasps an object or finger ,"{NAME} grasps an object or a finger when you place your finger or object in the palm of {HISHER} hand. While this feels intentional, this is actually demonstrates the Palmer grasp reflex.",2,0,19
+9,Arms open outward when tilted back,"When {NAME} is startled (for example, by a loud noise) or abruptly moved, {HESHE} responds by throwing out {HISHER} arms & legs and curling them in again.  What you are witnessing is the Moro reflex.",2,0,16
+10,Orients body in response to your voice,"{NAME} nestles {HISHER} body against you when you talk. Or if someone else is holding {HERHIM}, shifts towards your voice.",3,1,73
+11,Changes behavior in response to you,"{NAME} behaves differently with you, than with other less familiar people in {HISHER} life. {HESHE} is beginning to recognize you by sound & smell.",3,1,94
+12,Cries to get needs met,"{NAME} cries in order to let you know that something is not right. {HESHE} is hungry, tired, or uncomfortable. {HESHE} is uses one cry for everything right now.",4,0,25
+13,Smile reflexively,"{NAME} smiles. It is a wonderful sight. But before you tell everyone how happy {HESHE} is, you should know this is a reflex at this stage.",4,0,22
+14,Aware of being touched,{NAME} reacts to your touch.,5,0,33
+15,Startles at loud sounds,{NAME} is startled when {HESHE} hears a loud sound such as car horn or vacuum cleaner. {HESHE} may also startle to everyday sounds that are not particularly loud at first like a door closing.,5,0,16
+16,Looks at your face when held,{NAME} looks at your face when you hold {HERHIM}. Who knew you were so fascinating?!,5,1,95
+17,Stares at diffuse light,{NAME} will stare at a light that is not too bright like the window during the day or ceiling light fixture at night.,5,1,113
+18,Eyes follow red object 6 inches away from sides to side ,Both of {NAME}'s eye move both to the right & the left. Both eyes move together at the same time.,5,1,57
+19,Sucks reflexively when an object is put in mouth,"{NAME} automatically sucks on a pacifier, finger, or bottle when {HISHER} lips are touched with it.",5,0,20
+20,Shuts eyes at bright lights,{NAME} closes {HISHER} eyes in the presence of a bright light such as car headlights or direct sunlight.,5,0,40
+21,Looks at objects 8 to 15 inches away,{NAME} will look at objects 8 to 15 inches away.,5,1,41
+22,Makes gurgling sounds,{NAME} vocalizes by making noises that sound like gurgling.,6,1,97
+23,Shows discomfort when diaper is being changed,"{NAME} becomes agitated when you are changing {HISHER} diaper. While this is unpleasant to experience as a caregiver, it shows that {NAME} senses that involve touch or feeling the coolness of air are working.",6,0,25
+24,Expresses sounds of pleasure when picked up,{NAME} let's you know that {HESHE} is happy when you pick {HERHIM} up by changing {HISHER} behavior.,6,1,96
+25,Holds head upright for a few seconds at a time,{NAME} can hold {HISHER} head up for a short amount of time when laying on stomach.,1,2,72
+26,Moves head towards desired object,{NAME} can turn his head to look at a person or object of interest.,1,2,129
+27,Leans on forearms while lying on stomach,{NAME} can lift up {HISHER} chest & rest {HISHER} body weight on {HISHER} forearms.,1,2,131
+28,Pushes up body with arms while on stomach,{NAME} can lift {HISHER} chest of off the floor using {HISHER} arms by locking {HISHER} elbows for a short period of time.,1,2,132
+29,Makes deliberate movements with arms & legs,{NAME} move {HISHER} arms intentionally as opposed to reflexively.,1,2,150
+30,Pushes down on legs when feet are on hard surface,"{NAME} will push with {HISHER} feet when {HISHER} feet touch a hard surface, but does not bear weight on them.",1,2,133
+31,Holds head upright when in vertical position,{NAME} can hold up {HISHER} head when held in a sitting position without you having to support the weight of his head.,1,3,224
+32,Holds head upright while lying on stomach,{NAME} can hold his head up 90 degrees from the floor while laying on {HISHER} stomach.,1,3,221
+33,Turns head in all directions while supported,{NAME} can turn head to look at objects of interested while you are holding {HERHIM}.,1,3,222
+34,Kicks at plaything,"{NAME} will kick at and object of interest while being held or lying on {HISHER} back. {NAME} doesn't know how to reach for things yet with {HISHER} arms. In order to engage with a toy, {HESHE} will kick at it. ",1,3,223
+35,Bears weight on legs with sagging at knees,"{NAME} bears weight on {HISHER} legs when feet are flat on floor, but {HISHER} knees will be slightly bent as opposed to locked off.",1,3,231
+36,Rolls from side to stomach,{NAME} can roll onto {HISHER} stomach when placed on both of {HISHER} sides.,1,3,226
+37,Rocks from side to side while on stomach,{NAME} rocks from side to side while on stomach trying to figure out how to roll over.,1,4,335
+38,Sticks toes in mouth,{NAME} can bring {HISHER} feet to {HISHER} hands & bring {HISHER} feet to {HISHER} mouth to suck on {HISHER} toes.,1,4,355
+39,Keeps head steady while in a sitting position,{NAME} can hold {HISHER} head steady while sitting on your lap without {HISHER} head bobbing from the weight.,1,4,343
+40,Lift head from cushion while on back,{NAME} can lift {HISHER} head off the cushion that {HISHER} is propped upon.,1,4,341
+41,Pushes up to elbows while lying on stomach,{NAME} can push {HISHER} chest off of the floor while lying on stomach & support {HISHER} body weight on {HISHER} elbows.,1,4,342
+42,Able to look right/left while lying on stomach,{NAME} can look to both the left & the right while lying on stomach.,1,5,466
+43,Pushes up on arms lifting chest while on stomach,{NAME} can lift chest completely off of the floor by pushing up on {HISHER} arms.,1,5,438
+44,Can remain in sitting position for a few seconds without support,{NAME} can remain in a sitting position for a few seconds without falling over without support.,1,5,455
+45,Pulls to sitting position when hands are held,{NAME} can pull {HIMSELFHERSELF} into a sitting position from {HISHER} back while holding onto your thumbs.,1,5,453
+46,Turns head to look both left and right in sitting position,{NAME} can turn {HISHER} head both left & right when in sitting position.,1,5,452
+47,Rolls over while holding onto you,{NAME} can roll from {HISHER} back to stomach while holding onto your thumb.,1,5,442
+48,Bears weight on legs when feet are flat on floor,{NAME} can support all of {HISHER} weight when standing on {HISHER} feet with feet flat on floor as opposed to tip toes.,1,5,458
+49,Lifts legs to grab feet,{NAME} can lift his legs to grab both feet at the same time while lying on {HISHER} back.,1,5,457
+50,Pulls to sitting position,{NAME} can pull {HIMSELFHERSELF} into a sitting position by {HIMSELFHERSELF}.,1,6,606
+51,Sits upright with support,{NAME} can remain in a sitting position without falling over without support.,1,6,605
+52,Pushes with both feet while in chair,"{NAME} pushes with both feet at the same time when sitting in a high-chair, stroller or car seat.",1,6,611
+53,Rolls from stomach to back,{NAME} can roll from stomach to back without help.,1,6,600
+54,Rolls from back to stomach,{NAME} can roll from back to stomach without help.,1,6,595
+55,Rocks or bounces while in sitting position,{NAME} rocks or bounces while seat. {HESHE} wants to move & {HESHE} does this in preparation for crawling or standing.,1,6,604
+56,Rolls from back to stomach in both directions,{NAME} can roll from back to stomach in both directions regularly. ,1,6,595
+57,Rolls from stomach to back in both directions,{NAME} can roll from stomach to back in both directions regularly.,1,6,600
+58,Moves forwards while on stomach,{NAME} moves forward on stomach using the army crawl.,1,6,602
+59,Fully extends arms to raise chest off of floor,{NAME} can push up on arms fully while laying on stomach lifting {HISHER} chest off of the floor. {NAME} is ready to get moving. Only a couple of more milestones until {HESHE} is crawling.,1,6,592
+60,Full range of steady movement with head,{NAME} can look all around with {HISHER} head without it bobbing.,1,7,770
+61,Pushes onto hands and knees from lying flat on stomach,{NAME} can push into both hands & knees from lying on stomach for a few seconds.,1,7,749
+62,Moves backwards while on stomach,{NAME} can move backward while on {HISHER} stomach by push with {HISHER} hands.,1,7,762
+63,Supports body with forearms while on hands & knees,{NAME} can support {HISHER} torso with {HISHER} forearms while on {HISHER} hands & knees.,1,7,751
+64,Pulls to standing position with support,{NAME} can pull to standing while handing onto your thumbs.,1,7,758
+65,Sits upright for minutes without support,{NAME} can sit upright steadily for 2-3 minutes without support.,1,8,916
+66,Gets into sitting position on own from any position,{NAME} can get into a sitting position by {HIMSELFHERSELF} from any position.,1,8,914
+67,Pushes body onto hands & knees,{NAME} can push {HIMSELFHERSELF} onto {HISHER} hands & knees. Almost there! {NAME} will be crawling once {HESHE} can figure out how to move forward from this position.,1,8,909
+68,Rocks back & forth while on hands & knees,{NAME} rocks back & forth while on hands & knees. Here we go! {NAME} will be crawling soon!,1,8,908
+69,Crawls forward,{NAME} can crawl forward. Watch out! Here {HESHE} goes!,1,9,1085
+70,Crawls backwards,{NAME} can crawl backwards.,1,9,1084
+71,Crawls on all fours with straight arms & legs ,"{NAME} moves from place to place by ""crawling"" with straight arms & legs called ""Bear walking""",1,9,1083
+72,Able sit from crawling position,{NAME} can transition from crawling to sitting position.,1,9,1097
+73,Can lean forward & turn body sideways without falling over,{NAME} can lean forward while in a seated position & turn body sideways without falling over.,1,9,1145
+74,Sits unsupported for up to 10 minutes,{NAME} can sit without support for up to 10 minutes.,1,9,264
+75,Crawls under & around furniture,{NAME} can crawl under & around furniture,1,10,1277
+76,Climbs on & off furniture,"{NAME} can climb onto furniture, as well as climb down.",1,10,1278
+77,Attempts to stand up from crawling position,{NAME} uses furniture to try to get into a standing position from crawling.,1,10,1293
+78,Pulls to standing position on own,{NAME} can pull into a standing position by holding onto a piece of furniture.,1,10,1292
+79,Crawls up stairs,{NAME} can crawl up stairs.,1,10,1276
+80,Crawls down stairs backwards,{NAME} can climb down the stairs backwards.,1,11,1464
+81,Walks while adult is holding hands,{NAME} can walk while you hold onto {HISHER} hands.,1,11,1480
+82,Walks while hanging onto furniture,"{NAME} has figured out how to ""walk"" around while hanging onto furniture. This is called ""cruising""",1,11,1481
+83,Sits on own when standing,{NAME} can successfully move from standing position to sitting without falling over regularly.,1,11,1477
+84,Stands without support,{NAME} can stand for a seconds without holding onto anyone or anything. Won't be long now before {HESHE} is walking!,1,11,1479
+85,Stands up from crawling position with support,{NAME} has successfully figured out how to stand up from a crawling position using furniture most of the time.,1,11,1485
+86,Bounces on legs while standing,{NAME} looks like {HESHE} is doing a jig by bouncing on {HESHE} legs while standing. But {HESHE} is building the strength & agility to maintain balance in order to walk without support.,1,12,1677
+87,Walks while pushing box or walker,{NAME} walks smoothly using a walker or pushing a box.,1,12,1653
+88,Turns torso left or right while standing,{NAME} can turn at the waist both to the left & right while standing & not lose balance most of the time.,1,12,1656
+89,Lunges to move between furniture,{NAME} moves around the room cruising & launching {HIMSELFHERSELF} between pieces of furniture to get to a different part of the room.,1,12,1654
+90,Pushes doors closed,{NAME} crawls to and open door & pushes it closed.,1,12,1658
+91,Can get into sitting position from lying on back,{NAME} can get {HIMSELFHERSELF} into a sitting position from lying on {HISHER} back.,1,12,1657
+92,Can stand without support for a few seconds,{NAME} can stand for a few seconds without holding onto anyone or anything.,1,12,1674
+93,Walks 2 - 3 steps without support,{NAME} has taken 2 to 3 steps on own without holding onto anyone or anything. Here we go! Nothing is going to stop {HERHIM} now.,1,13,1772
+94,Crawls up and entire flight of stairs without stopping,{NAME} can crawl up and entire flight of stairs without stopping to sit.,1,13,1783
+95,"Holds out arms, legs & feet to help get dressed & undressed","{NAME} helps you with undressing & dressing by anticipating the next step in the process by holding out {HISHER} arms, legs, & feet.",1,14,1720
+96,Crawls downstairs backwards,{NAME} can crawl down and entire flight of stairs without stopping to sit down.,1,14,1918
+97,Stands from sitting without support,{NAME} has development the strength & balance to stand up from a sitting position without holding onto anyone or anything.,1,14,1909
+98,Squats & stands back up using hands,{NAME} can bend knees into a squat position & stand back up by holding onto a piece of furniture. ,1,15,2013
+99,Walks alone with feet wide & arms up,{NAME} walks without help with a wide gate & arms up for balance. Zoom!,1,15,2012
+100,Kneels without support,{NAME} can tall kneel for 1 minute without using hands,1,15,2014
+101,"Walks alone, often falls & bumps into furniture","{NAME} walks unaided, but still falls often & bumps into furniture.",1,16,2118
+102,Maintains balance standing or sitting while using 2 hands to explore toys,{NAME} can play with toys using both hands at the same time while standing or sitting without losing balance,1,16,2119
+103,Can push or pull large toys,{NAME} can push or pull large toys without losing balance most of the time.,1,17,2237
+104,Walks with arms down at sides,{NAME} has sufficient balance to walk with arms down at sides instead of up or out. ,1,17,2240
+105,Can turn head while standing without losing balance,{NAME} no longer loses balance when turning head while standing most of the time.,1,17,2239
+106,Steady on feet,{NAME} maintains sufficient balance to be steady of {HISHER} feet most of time.,1,18,2360
+107,"Can run, although falls easily ","{NAME} has figured out how to get moving faster by running, although {HESHE} falls easily.",1,18,2356
+108,Climbs onto adult's chair,{NAME} can climb successfully into and adult-sized chair.,1,18,2355
+109,Walks up steps holding hand two feet at a time,"{NAME} can walk up while holding onto the railing by stepping onto a step, then bring the other foot to meet it on the step before moving onto the next step.",1,18,2359
+110,Is able to carry a toy while walking,{NAME} can carry a toy while walking without falling over.,1,19,2480
+111,Has adequate endurance to strength to play with peers,{NAME} can run & play with peers for and extended period of time without tiring too quickly.,1,19,2483
+112,Is able to pick up a toy off of floor without falling over,{NAME} can bend over to pick a toy off of the floor without losing balance most of the time.,1,20,2579
+113,Can throw a small ball while standing without losing balance,{NAME} doesn't lose balance most of the time when {HESHE} throws a ball.,1,20,2580
+114,Is able to pull a toy with a string while walking forward,{NAME} can pull a toy on a string while walking forward without losing balance most of the time.,1,21,2688
+115,Walks down steps holding hand two feet at a time,"{NAME} can walk down steps while holding onto the railing by stepping onto a step, then bring the other foot to meet it on the step before moving onto the next step.",1,21,2689
+116,Can squat for a few seconds without losing balance,{NAME} can squat for a few seconds to play with a toy without losing balance & transitioning to a seated position.,1,22,2795
+117,Climb on furniture & playground equipment,{NAME} has sufficient strength to climb onto furniture and playground equipment without help.,1,23,2900
+118,Stands on tiptoes,{NAME} can stand on tiptoes for a few seconds without losing balance.,1,23,2898
+119,Walks & down stairs holding railing with both feet on each step,"{NAME} can not only walk up stairs two feet at a time while holding onto the railing, but can now walk down the stairs using the same process.",1,23,2899
+120,Walks smoothly,{NAME} walks smoothly without hesitation or losing balance.,1,24,3007
+121,Begins running,{NAME} begins to run straight ahead without falling most of the time.,1,24,2998
+122,Can propel a ride-on toy with feet on floor,{NAME} can get around using feet to propel {HIMSELFHERSELF} while sitting on a ride-on toy.,1,24,3000
+123,Swings arms when walking in a hurry,{NAME} propels {HIMSELFHERSELF} forward faster while walking by swinging right arm forward while left foot is back & left arm forward while right foot is back.,1,25,3104
+124,Walks & down steps without support with both feet on each step,{NAME} can walk up the steps 2 feet at a time without holding onto anyone or anything most of the time.,1,26,3198
+125,Avoids obstacles while running,"{NAME} can avoid people, toys, & furniture while running most of the time.",1,26,3190
+126,Stops running without using object to stop momentum,{NAME} can maintain balance when coming to a quick stop without using anything to stop {HISHER} momentum.,1,26,3194
+127,Can kick a ball,{NAME} can make contact with a ball while trying to kick it most of the time while maintain balance most of the time.,1,27,3287
+128,Jumps with both feet,{NAME} can jump straight up using both feet.,1,27,3288
+129,Walks up steps with support while alternating feet,{NAME} can walk up steps one foot at a time without having to have both feet on a single step at the same time.,1,28,3377
+130,Walks a few steps while on tiptoes,{NAME} can take a few steps while on tip toes without losing balance most of the time.,1,28,3378
+131,Climbs up ladders on outdoor play equipment,{NAME} can climb a ladder at a playground.,1,29,3472
+132,Able to catch a ball without losing balance,{NAME} can catch a ball with both arms under hand using chest to stop the ball without losing balance.,1,31,3685
+133,Jump from bottom step with feet together,{NAME} can jump off of a single step with both feet.,1,32,3797
+134,Climbs down ladders on outdoor play equipment,{NAME} can climb down a ladder on a play structure.,1,33,3908
+135,Can bring chair to table & sit down,{NAME} can push and adult-sized chair to a table & climb onto to to sit down.,1,34,3947
+136,Can maintain balance when accidently bumped,{NAME} does not fall over most of the time when someone bumps into {HERHIM}.,1,34,3959
+137,Walks on tip toes for 6 or more steps,{NAME} can walk on {HISHER} tip toes for 6 steps or more without losing balance most of the time.,1,35,4073
+138,Can imitate someone balancing on one foot,{NAME} watch someone lift {HISHER} leg to balance on one foot & imitate the gesture.,1,36,4188
+139,Alternate feet while climbing the stairs on own,{NAME} can alternate feet with one foot per step while climbing the stairs without holding onto anyone or anything.,1,36,4184
+140,Run & walk without tripping over own feet,{NAME} can run & walk without tripping over {HISHER} own feet most of the time.,1,36,4185
+141,Can imitate someone moving both arms at the same time,{NAME} can watch someone moving both arms at the same time & imitate the movement correctly.,1,37,
+142,Walks backwards,{NAME} can walk backwards for a few steps without losing balance most of the time.,1,37,
+143,Can pedal a tricycle,{NAME} can pedal a tricycle or similar 3-wheeled vehicle.,1,38,
+144,Walks with arms swinging opposite of foot's movement,{NAME} walks with alternating arm swing that is the opposite of the leading foot most of the time.,1,38,
+145,Hops in place with both feet together,{NAME} can hop up & down in place with both feet together.,1,39,
+146,Jumps off of step with one foot in front,{NAME} can jump off of a single step with one foot leading the other.,1,39,
+147,Can swing independently once started,{NAME} can swing on a swing set once someone pushes {HISHER} to get {HERHIM} started.,1,40,
+148,Is able to maintain balance walking on uneven surfaces,{NAME} can maintain balance while walking on uneven surfaces most of the time.,1,40,
+149,Can balance on one foot for a few seconds,{NAME} can balance on one foot for a few seconds most of the time.,1,41,
+150,Walks through room without bumping into anything,{NAME} can walk through a room without bumping into objects & people most of the time.,1,41,
+151,Hops on one foot 2 times,{NAME} can hop on one foot 2 times without losing balance most of the time.,1,42,
+152,Jumps from 18 inch height with one foot leading,{NAME} can jump off 2 steps or from a height of 18 inches with one foot leading without losing balance most of the time.,1,42,
+153,Can broad jump 10-24 inches,{NAME} can jump from a standing position 10 - 24 inches without losing balance most of the time.,1,43,
+154,Stand on one foot,{NAME} can balance on one foot for 10 seconds or more without losing balance most of the time.,1,44,
+155,Catches a big ball regularly ,{NAME} successfully catches a large ball most of the time.,1,45,
+156,Seeks out various ways to move,"{NAME} likes to move about in unique & varied ways putting strength, agility & balance to the test.",1,45,
+157,Kick a small ball forcefully,{NAME} can kick a small ball with a lot of force most of the time.,1,46,
+158,Can walk on a line,{NAME} can maintain balance while walking on a line for a couple of feet.,1,46,
+159,Throws ball overhand 7 feet,{NAME} can throw a ball overhand up to 7 feet.,1,47,
+160,Can skip or gallop,"{NAME} can maintain the pattern, as well as a consistent rhythm while skipping or galloping for 30 seconds or more most of the time.",1,47,
+161,Hops on one foot competently,{NAME} has mastered hopping on one foot.,1,47,
+162,Swipes at toys,{NAME} uses entire arm to swipe at objects that interest {HERHIM}.,2,2,150
+163,Attempts to grab at objects,{NAME} tries to use hands to grab a toy that is within reach.,2,2,150
+164,"Closes hand around objects, but does not regard them","{NAME} will hold and object that is in {HISHER} hand, but pays no attention to it.",2,2,152
+165,Grab own hands & bring to midline,{NAME} can successfully grab {HISHER} own hands & bring them to center of chest most of the time.,2,3,252
+166,Holds object & jerks it up & down briefly ,{NAME} jerks a toy up & down briefly while holding onto it.,2,3,253
+167,Reaches for bottle with both hands when offered,{NAME} reaches for a bottle using both hands when you offer it to {HERHIM} most of the time.,2,3,254
+168,Grabs at your hair when leaning over,"{NAME} grabs at long hair when it is in reach often tangling fingers in the hair or when successful, pulls hair. This is one of those ""unfortunate"" milestones for people with long hair, but a necessary milestone to achieve.",2,3,250
+169,Brings hands to mouth successfully most of the time,{NAME} can successfully bring hands upto & into mouth most of the time.,2,3,251
+170,Brings hands together to play with own fingers,{NAME} can successfully bring hands together most of the time in order to play with {HISHER} own fingers.,2,3,252
+171,Grabs & holds and object with both hands,{NAME} can successfully grab & hold and object with both hands most of the time.,2,4,366
+172,Touches object without holding it,"{NAME} can reach out to touch and object with fingers, but not try to hold it.",2,4,362
+173,Shakes rattle once or twice,{NAME} can successfully shake a rattle once or twice most of the time.,2,4,363
+174,"Reaches for objects, but frequently misses them","{NAME} regularly attempts to reach for nearby objects, but frequently misses them",2,4,364
+175,Reaches for objects 6 - 12 inches away,{NAME} regularly tries to reach for objects that are 6 - 12 inches away.,2,5,483
+176,Grabs objects with either hand,{NAME} can successfully grab objects with either left or right hand most of the time.,2,5,484
+177,Reaches to take hold of object while on back or stomach,{NAME} can reach out to take hold of and object while lying on {HISHER} back or stomach.,2,5,485
+178,Reaches for desired objects with one hand,{NAME} reaches out for a toy or desired object using only one hand most of the time.,2,5,488
+179,Can crumple paper,{NAME} crumple paper that is handed to {HISHER}.,2,5,482
+180,Passes objects from one hand to the other,{NAME} successfully passes and object from one hand to the other most of the time.,2,6,635
+181,Grabs things without looking at it,{NAME} can successfully grab things without looking at them most of the time.,2,6,644
+182,Sticks your hand in their mouth,{NAME} can navigate your or another person's hand into {HISHER} mouth most of the time.,2,6,642
+183,Shakes playthings,{NAME} shakes playthings intentionally to make a sound or to understand more about how it functions.,2,6,648
+184,Succeeds in grabbing objects 6 - 12 inches away,{NAME} successfully grabs desired objects that are 6 to 12 inches away most of the time.,2,6,641
+185,Holds bottle on own,{NAME} can hold bottle with both hands on {HISHER} own most of the time.,2,6,646
+186,Grabs own feet,{NAME} can successfully bring feet up in order to grab them with {HISHER} hands most of the time.,2,6,638
+187,Points at things with open hand,{NAME} points at things with straight fingers & open hand most of the time.,2,7,787
+188,Bangs object on tabletop,{NAME} regularly bangs object in hand on a tabletop or other hard surface.,2,7,786
+189,Throws things on floor on purpose,{NAME} intentionally throws objects on floor to see what happens.,2,7,790
+190,Likes to hold items that make sounds,{NAME} likes to hold & play with toys or objects that make sounds.,2,7,803
+191,Reaches for objects nearby,{NAME} successfully reaches nearby objects most of the time.,2,7,796
+192,Grabs feet & brings toes to mouth,{NAME} grabs feet & brings toes to mouth successfully most of the time.,2,7,781
+193,Puts everything in mouth,{NAME} explores objects by putting them in {HISHER} mouth. This is the first process of categorization to determine whether or not object is food or not food.,2,7,802
+194,Tries to grab an object that is out of reach,{NAME} tries to reach for and object that is farther than 12 inches away,2,8,968
+195,Engages with activity box,"{NAME} will engage with a toy that sits on a table & has one or more activities such as moving a bead along a metal loop, turning a gear, or flipping a tile.",2,8,949
+196,Releases objects by dropping them,{NAME} opens {HISHER} hand & drops and object that {HESHE} is holding in order to get it out of {HISHER} hand.,2,8,968
+197,Hold toys in both hands & bang them together,"{NAME} is able to successfully bang together two toys, one in each hand, most of the time.",2,8,955
+198,Can let go of objects to explore how they work,{NAME} has figured out how to open {HISHER} hand intentionally in order to let release and object that {HESHE} is holding in order to explore it from a different angle.,2,8,962
+199,Can pick up finger foods,{NAME} is able to pick up finger foods successfully using one or more of {HISHER} hands most of the time.,2,9,1132
+200,Pokes with fingers together at small objects,{NAME} attempts to explore small objects by poking at it with all {HISHER} fingers together.,2,9,1138
+201,Plays with object with both hands,{NAME} uses both hands to explore & play with and object most of the time.,2,9,1136
+202,Holds book propped on lap or pillows,{NAME} can hold a book that is propped on {HISHER} lap with both hands most of the time.,2,9,1135
+203,Uses different amount of force to pick up objects,{NAME} experiments with amount of force needed to pick up objects of different sizes & weights.,2,9,1154
+204,Learning pincer grip,{NAME} attempts to pick up small objects only using the thumb & index finger.,2,9,1132
+205,Rolls ball across floor,{NAME} can successfully roll a ball across the floor using both hands most of the time.,2,10,1324
+206,Puts objects inside of other objects,{NAME} can successfully put one object inside of another object most of the time.,2,10,1327
+207,Pulls things apart,{NAME} can successfully pull items apart using both hands most of the time.,2,10,1326
+208,Arranges blocks,{NAME} intentionally arranges blocks or toys.,2,10,1325
+209,Starts to point at distant objects,{NAME} shows interest in objects that {HESHE} can see at a distance by pointing at them with straight fingers that are spread open.,2,10,1346
+210,Lets go of object deliberately,{NAME} intentionally lets go of object most of the time as opposed to dropping it in order to reach for another object.,2,10,1328
+211,Shakes & throw objects,{NAME} intentionally shakes & throws objects most of the time as opposed to throwing by accident or shaking them reflexively.,2,11,1498
+212,Grabs ball rolled at {HERHIM},{NAME} can grab a ball that is rolled at [him/her] with both hands.,2,11,1502
+213,Pulls shoes & socks off,"{NAME} tries to use {HISHER} hands to pull shoes & socks off, but is mostly unsuccessful.",2,11,1528
+214,Likes to fill empty containers,{NAME} enjoys putting objects inside empty containers.,2,11,1497
+215,Put finger foods in mouth,{NAME} successfully puts finger food in mouth most of the time.,2,11,1504
+216,"Can hand and object to another person, but doesn't let go","{NAME} can place and object into another's hand when requested, but does not release it.",2,11,1499
+217,Stacks blocks,"{NAME} attempts to stack one blocks on top of the other, but is mostly unsuccessful.",2,12,1512
+218,Drink from sippy cup,{NAME} can drink successfully from sippy cup most of the time.,2,12,1694
+219,Takes objects out of boxes,{NAME} can successfully take objects out of boxes.,2,12,1688
+220,Feeds another person or pet,"{NAME} attempts to feed you, another person, or a pet imitating how you feed {HERHIM}.",2,12,1693
+221,Pushes or pull toys with wheels,{NAME} successfully pushes or pull toys with wheels most of the time.,2,12,1687
+222,Can mark paper with thick marker or crayon,{NAME} can make marks paper with thick marker or crayon held in fist with one or both hands.,2,12,1690
+223,Tries to get spoon into own mouth with help,"{NAME} attempts to feed [himself/herself] by trying to get spoonful of food into own mouth, but requires help.",2,12,1692
+224,"Throw a ball, but not overhand",{NAME} can throw a ball successfully underhand most of the time.,2,12,1706
+225,Gives & takes balls,"{NAME} can successfully give a ball to, as well as take it from another person most of the time.",2,12,1698
+226,Turns a several pages in a board book,{NAME} can successfully turn several pages of board books at a time most of the time.,2,12,1701
+227,Can hold a book unsupported,{NAME} can hold a book with both hands by {HIMSELFHERSELF} most of the time.,2,13,1824
+228,Create a block tower with help,{NAME} can create a block tower with help.,2,13,1810
+229,Points at desired objects,{NAME} can point at desired objects in order to communicate {HISHER} interest in them.,2,13,1850
+230,Holds & bangs objects,{NAME} can successfully hold & bang objects together such as using a wooden hammer to hit a peg or ball most of the time.,2,13,1806
+231,Can pick up small objects using thumb & index finger,{NAME} can successfully pick up small objects like raisins or crayon using pincer grip most of the time.,2,13,1809
+232,Clap hands,{NAME} can clap hands together successfully most of the time.,2,13,1881
+233,Can build a tower of 2 blocks,{NAME} can successfully stack one block on top of another without the top block falling off most of the time.,2,14,1933
+234,Holds crayon in fists & scribbles back & forth,{NAME} can hold crayon in fist & scribble back & forth using the whole arm.,2,14,1935
+235,Repeatedly throws objects on the floor,{NAME} repeatedly throws objects on the floor intentionally.,2,14,1815
+236,Points with index finger,{NAME} can successfully point with index finger by separating it from other fingers most of the time.,2,14,1934
+237,Starts to be able to take of shoes,{NAME} begins to become successful in removing {HISHER} own shoes.,2,15,1931
+238,Holds thumbs up,{NAME} is able to hold {HISHER} thumbs up.,2,15,2047
+239,Can wave hand in front of own face,{NAME} can wave hands in front of own face successfully most of the time.,2,15,2002
+240,Turn a few pages at a time,{NAME} can turn a few paper pages in a book at a time.,2,16,1824
+241,Starts to be able to take off clothing,{NAME} begins to be able to take off clothing successfully.,2,16,2143
+242,Can hold 2 fingers up ,{NAME} can successfully hold index & middle fingers up & secure other fingers with thumb most of the time.,2,16,2145
+243,Uses both hands equally to play with & explore toys,{NAME} uses both hands equally to play with & explore toys.,2,16,2198
+244,Draws dots by banging crayon on paper,{NAME} can draw dots by banging crayon on paper.,2,17,2264
+245,Uses hands to help move from one position to another,{NAME} uses hands to help move {HIMSELFHERSELF} from one position to another.,2,17,2265
+246,Can turn pages individually in a board book,{NAME} can successfully turn pages individually in a board book most of the time.,2,18,1824
+247,Can build a tower of 3 blocks,{NAME} can successfully build a tower of 3 blocks without help most of the time.,2,18,2379
+248,Begins to show a hand preference when drawing,{NAME} is beginning to show a preference for using a certain hand when drawing.,2,18,2161
+249,Begins to feed {HIMSELFHERSELF} with spoon,{NAME} begins to feed {HIMSELFHERSELF} with spoon more successfully.,2,18,2374
+250,Puts objects into a container & takes out again,{NAME} is able to put objects into a container & successfully take them out again most of the time.,2,19,2056
+251,Eats with a utensil,{NAME} is able to eat with a utensil successfully most of the time.,2,20,2600
+252,Coordinates hands & fingers to execute a task,{NAME} can coordinate hands & fingers to work a toy or manipulate and object.,2,20,2599
+253,Able to pinch small objects between fingers,{NAME} is able to pinch small objects between fingers successfully most of the time.,2,21,2703
+254,Can point index finger,{NAME} is able to point index finger while holding other fingers down with thumb successfully most of the time.,2,21,2707
+255,"Points to own head, eyes, ears, nose, & mouth","{NAME} can point to own head, eyes, ears, nose, & mouth when requested.",2,22,2812
+256,Tries to hold a thick crayon using fingers & thumb,"{NAME} tries to hold a thick crayon using thumb, index, & middle fingers called the ""tripod grip"".",2,22,2825
+257,Able to poke with finger,{NAME} is able to poke a person or object with index finger.,2,23,2924
+258,Hand preference when drawing is established,{NAME} uses {HISHER} dominant hand all of the time when drawing.,2,23,2923
+259,Uses fork & spoon well when eating,{NAME} uses fork & spoon well when eating most of the time.,2,23,2914
+260,Holds crayon with fingers & thumb,{NAME} holds crayon with tripod grip most of the time.,2,24,2923
+261,Can catch a ball with both arms using body to stop the ball,"{NAME} can catch a ball with both arms under hand using chest to stop the ball, but loses balance frequently.",2,24,3013
+262,Can turn pages individually in a book,{NAME} can successfully turn paper pages individually in a book most of the time.,2,24,3014
+263,Can draw a vertical line,{NAME} can draw a vertical line,2,24,3010
+264,Strings 4 large beads,{NAME} can thread up to 4 large beads onto a thick string or piece of yarn without help.,2,25,3110
+265,Play with toys with small moving parts,{NAME} is able to successfully play with toys with small moving parts.,2,26,3228
+266,Builds a block tower of at least 6 -7 blocks,{NAME} can successfully build a block tower of at least 6 -7 blocks without help.,2,26,3205
+267,Turn on the faucet & wash hands,{NAME} can turn on the faucet & wash hands without help most of the time.,2,27,3214
+268,Begins to know how to work snaps,{NAME} can close & open snaps with help.,2,28,3392
+269,Can pull up a zipper ,{NAME} can pull up a zipper with help.,2,28,3391
+270,Can pull a zipper down,{NAME} can pull down a zipper with help.,2,29,3486
+271,Complete a 3 or 4 piece puzzle,{NAME} can successfully complete a 3 or 4 piece puzzle without help most of the time.,2,30,3592
+272,Builds a 8 block tower,{NAME} can successfully build a tower of 8 blocks without help most of the time.,2,31,3700
+273,Holds crayon with fingers,{NAME} can successfully hold crayon with 5-finger grasp most of the time.,2,31,3702
+274,Brush own teeth & hair,"{NAME} can brush own teeth & hair by {HIMSELFHERSELF}, but not well.",2,32,3812
+275,Can draw a horizontal line,{NAME} draw a horizontal line,2,32,3817
+276,Scribbles in circular motion,{NAME} can scribble in circular motion as opposed to just left & right.,2,33,3924
+277,Can carry container with little spilling or dropping,{NAME} can carry objects without dropping them or a fluid-filled container with little spilling most of the time.,2,33,3909
+278,Can pull pants down,{NAME} can successfully pull pants down without help most of the time.,2,34,3963
+279,Puts on socks,{NAME} can successfully put on socks without help most of the time.,2,35,4088
+280,Puts on shoes,{NAME} can successfully put on slip-on shoes without help most of the time.,2,35,4089
+281,Builds tower of 9 - 10 blocks,{NAME} can successfully build a tower of 9 - 10 blocks without help most of the time.,2,35,4090
+282,Use door handles,{NAME} can successfully use door handles without help most of the time.,2,36,4197
+283,Can trace a circle,{NAME} can trace a circle,2,36,4196
+284,Can button & unbutton large buttons,{NAME} can successfully button & unbutton large buttons without help most of the time.,2,36,4198
+285,Can draw a circle,"{NAME} can successfully draw a circle, but not well.",2,37,
+286,Snips with scissors on a line,"{NAME} can snip with scissors on a line, but not very well.",2,37,
+287,Start to count groups of things,"{NAME} begins to be able to count groups of things such as a 3 giraffes, 2 lions, 4 zebras.",3,37,
+288,Can open twist-on lids,{NAME} can successfully open twist-on lids without help most of the time.,2,38,
+289,Can twist lids on jars closed,{NAME} can successfully close twist-on lids without help most of the time.,2,38,
+290,Can draw a square,"{NAME} can draw a square, but not well.",2,40,
+291,Fold a piece of paper in half,{NAME} can successfully fold a piece of paper in half without help most of the time.,2,40,
+292,Can work levers,{NAME} can work a lever without help most of the time.,2,42,
+293,Can trace a cross-shape,{NAME} can trace a cross-shape when drawing.,2,42,
+294,Able to wash & dry face,{NAME} is able to wash & dry {HISHER} face {HIMSELFHERSELF}.,2,47,
+295,Can pull pants up,{NAME} can successfully pull pants up without help most of the time.,2,47,
+296,Can dress {HIMSELFHERSELF},{NAME} can dress {HIMSELFHERSELF} without help most of the time.,2,47,
+297,Looks at things longer,{NAME} looks at things for a longer period of time.,3,2,160
+298,Explores body by putting hands & feet in mouth,{NAME} explores body by putting hands & feet in mouth.,3,2,181
+299,Fascinated by objects in motion,{NAME} fascinated by objects in motion.,3,3,260
+300,Watches active people,{NAME} watches active people.,3,3,269
+301,Reaches to touch image of {HIMSELFHERSELF} in mirror,{NAME} reaches to touch image of {HIMSELFHERSELF} in mirror.,3,3,261
+302,Opens mouth when objects comes near mouth,"{NAME} opens {HISHER} mouth when pacifier, bottle, or toy comes near mouth.",3,3,262
+303,"Explores hands, feet & knees with mouth","{NAME} explores hands, feet, & knees with mouth.",3,3,695
+304,Recognizes feeding bottle,{NAME} recognizes feeding bottle.,3,3,262
+305,Interested in shiny objects,{NAME} is interested in shiny objects such as jewelry.,3,4,374
+306,Studies {HISHER} moving feet,{NAME} studies {HISHER} moving feet.,3,4,328
+307,Studies clothing & objects,{NAME} studies clothing & objects.,3,4,377
+308,Explores your face with {HISHER} hands,{NAME} explores your face with {HISHER} hands.,3,4,375
+309,Plays with your hands,{NAME} plays with your hands to study them.,3,4,372
+310,Differentiates between familiar & unfamiliar faces,{NAME} can differentiate between familiar & unfamiliar faces,3,5,504
+311,Aware of strangers,{NAME} is aware of strangers.,3,5,512
+312,Studies both sides of own hands,{NAME} studies both sides of {HISHER} own hands.,3,5,503
+313,Grasps objects deliberately,{NAME} grasps objects on purpose.,3,5,485
+314,Imitates simple movements,{NAME} imitates simple movements of others.,3,6,656
+315,Can pull cloth off of {HISHER} own face,{NAME} can pull a cloth off of {HISHER} own face.,3,6,653
+316,Looks for person out of sight,{NAME} looks for person who is out of sight.,3,6,654
+317,Tries new actions ,{NAME} tries new actions.,3,6,656
+318,Helps by pulling leg out of pants when being undressed,{NAME} is aware that{HESHE} is being undressed & helps by pulling leg out of pants.,3,6,708
+319,Plays with a single toy for 2 - 3 minutes,{NAME} has increased attention span & can play with a single toy for 2 - 3 minutes.,3,6,655
+320,Mimics nodding or shaking head,{NAME} can observe you nodding or shaking your head & mimic it.,3,7,807
+321,Looks for partially hidden object,{NAME} looks for partially hidden object.,3,7,809
+322,Reacts to hearing own name,{NAME} recognizes & reacts to hearing {HISHER} own name.,3,7,808
+323,Listens intently when spoken to,{NAME} listens intently when spoken to.,3,8,1044
+324,Enjoys a larger selection of toys,{NAME} likes to play with a variety of toys that do different things,3,8,977
+325,Moves towards objects of interest,{NAME} moves body towards objects of interest.,3,8,926
+326,Can hold toy in one hand & reach with the other,{NAME} is able to hold onto a toy in one hand & reach with the other without dropping the first toy.,3,8,969
+327,Explores your hair by rubbing it while being carried,{NAME} explores your hair by rubbing it with {HISHER} hands while being carried.,3,8,1048
+328,Splash bath toys to see what happens,{NAME} splashes bath toys to see what happens.,3,8,979
+329,Drops food on floor for pet to eat,{NAME} drops food on floor for pet to eat.,3,8,1033
+330,Looks for object that has been dropped,{NAME} looks for object that has been dropped remembering that {HESHE} used to have the object.,3,9,1225
+331,Explore objects with interest,{NAME} is actively engaged when playing with a toy or exploring and object.,3,9,1176
+332,Focuses on nearby objects & those up to 10 feet away,{NAME}'s eyesight is developing which allows {HERHIM} to focus on nearby objects & those that are up to 10 feet away.,3,9,1200
+333,Can pull blanket off of hidden object,{NAME} can pull blanket off of hidden object.,3,9,1165
+334,Reaches for object at which you are pointing,{NAME} can reach for object at which you are pointing.,3,9,1199
+335,"Stops immediately when told ""no""","{NAME} stops immediately when told ""no"".",3,9,1185
+336,Realizes that objects outside of field of vision still exists,"{NAME} realizes that objects outside of {HISHER} field of vision still exists. This concept is called ""object permanence"".",3,9,1164
+337,Recognizes differences between objects,"{NAME} recognizes differences between objects, such as size, texture, or color.",3,10,683
+338,Enjoys playing peek-a-boo & pat-a-cake,"{NAME} enjoys playing simple, structured games like peek-a-boo & pat-a-cake.",3,10,1353
+339,Repeats a sequence of actions with object,"{NAME} repeats a sequence of actions with and object like bang-shake-chew, bang-shake-chew.",3,10,1354
+340,Understands that [he/she] can remove uncomfortable items,"{NAME} Understands that [he/she] can remove uncomfortable items that [he/she] is in contact with, such as tugging on a sock to remove it.",3,10,1174
+341,Explores details on objects,{NAME} notices & explores details on objects.,3,11,1360
+342,Pays attention to songs & stories for a short time,{NAME} pays attention to songs & stories for a short period of time.,3,11,1629
+343,Repeats action when responded to,{NAME} will repeat something {HESHE} did when you react to it to get more attention.,3,12,1715
+344,Points to certain objects when asked,"{NAME} can point to certain objects when asked such as, ""Can you point to the rabbit on the page?""",3,12,1714
+345,Can follow simple instructions,"{NAME} is able to follow simple instructions like, ""Hand me the ball.""",3,12,1711
+346,Looks for missing toy that has rolled out of sight,{NAME} has left the Tertiary Circular Reaction stage by making a prediction of its trajectory & searching for it in that direction.,3,12,1712
+347,Seeks help with a problem,{NAME} seeks help with a problem such as handing you a broken toy to fix it.,3,12,1713
+348,Recognizing differences in sizes,{NAME} comprehends differences in sizes such as a small ball is different than a large ball or shoe is smaller than a chair.,3,13,1831
+349,Observes & tries to imitate what {HESHE} sees,{NAME} observes & tries to imitate what {HESHE} sees such as wiping a table or stirring a pot.,3,13,1837
+350,Mimics parent's behavior,{NAME} mimics parent's daily behaviors such as talking on phone.,3,13,1843
+351,"Understand basic commands like ""stop""","{NAME} understands basic commands like ""stop"".",3,13,1832
+352,Interested in pushing buttons,{NAME} interested in pushing buttons to see what they do.,3,14,1928
+353,Helps put toys away when asked to,{NAME} helps put toys away when you ask {HERHIM} to.,3,14,1946
+354,Makes connection between word & image,"{NAME} makes connection between word & image such as the word ""dog"" & and image of a dog.",3,14,1990
+355,Looks at colored images with interest,{NAME} is attracted to vibrantly colored images.,3,14,2001
+356,Enjoys simple books,{NAME} enjoys simple books.,3,15,2108
+357,Tests cause & effect,{NAME} tests cause & effect like knocking down a block tower.,3,16,2163
+358,Solves problems with trial & error,{NAME} solves problems with trial & error such as continuing to turn a triangle & test the fit until it goes into the shape sorter.,3,16,2145
+359,Recognizes when words or images are upside down,{NAME} recognizes when words or images are upside down such as holding a book right-side up.,3,17,2276
+360,Can build something using several different objects,{NAME} can build something using several different objects such as a putting paper plates on a box to turn it into a car.,3,17,2277
+361,Pretends to do everyday activities,"{NAME} pretends to do everyday activities with the objects used to do them, such as stirring and empty pot with a spoon.",3,18,2411
+362,Engages in imaginative play with imaginary objects,{NAME} engage in imaginative play with imaginary objects such as holding hands up to pretend to hold a steering wheel.,3,18,2392
+363,Pretends that one object is another object,{NAME} pretends that one object is another object like a box is a shoe.,3,18,2396
+364,Can follow basic instructions,{NAME} can follow basic instructions like wipe your face.,3,18,2391
+365,Can group 3 similar objects out of a selection of 4 objects,"{NAME} can group 3 similar objects out of a selection of 4 objects such as picking out 3 bowls out of a group of bowl, bowl, bowl, spoon.",3,18,2389
+366,Understands sequence of everyday tasks,{NAME} can anticipate the next step while participating in and everyday task such as knowing that you cut the vegetables before putting them in a pot.,3,18,2390
+367,Recognizes familiar images,{NAME} recognizes familiar images such as photos of family members or animals in a favorite book.,3,19,2258
+368,Pretends to do activities not done everyday,"{NAME} pretends to do activities with imaginary objects that not done everyday like using a spoon as a shot to ""Play Doctor"".",3,19,2506
+369,Changes clothing to pretend to be another person,{NAME} changes clothing to pretend to be another person like a firefighter.,3,19,2507
+370,Can put together a puzzle of 3 or more pieces,{NAME} can correctly orient pieces of a puzzle & match the color to assemble a puzzle of 3 or more pieces.,3,20,2614
+371,Points to and image that represents a word,{NAME} can point to and image that represents the word that is spoken such as pointing to the cat in the illustration of a group of animals in a book.,3,20,2617
+372,Tries to solve {HISHER} own small problems,{NAME} is beginning to try to solve {HISHER} own small problems like looking for missing toy.,3,20,2615
+373,Understands the difference between up & down,"{NAME} understands the positional words ""up"" & ""down"".",3,21,2720
+374,Combines two different imaginary scenarios ,{NAME} combines two different scenarios with imaginary objects during imaginative play like going to the grocery store & then coming home.,3,21,2721
+375,Can plan & explain a simple task,"{NAME} can explain {HISHER} plan to complete a simple task in simple terms such as taking food out, to cut, cook, & eat food.",3,21,2723
+376,Imaginative play becomes more complicated,{NAME} imaginative play becomes more complex such as using the tie from a bathrobe as a firehose & a bowl is a firehat.,3,21,2722
+377,Know uses of everyday objects,{NAME} know uses of everyday objects such as spoon or bottle.,3,22,2829
+378,Understands the difference between in & under,{NAME} understands the difference between in & under such as the book is on the table as opposed to the book is under the table.,3,22,2827
+379,Asks about things {HESHE} does not understand,{NAME} asks about things that [he/she] does not understand like what a blender is or how it works.,3,22,2830
+380,Understands difference between words indicating location,"{NAME} understands difference between words indicating location such as on/off, under/over, together/apart",3,23,2926
+381,Shows natural curiosity about surroundings,{NAME} shows natural curiosity about surroundings such as a watching a colony of ants or the veins on a leaf.,3,23,2930
+382,Imagine play scenarios follow logical sequence,"{NAME} imagine play scenarios follow logical sequence such as get vegetables, cut, cook, then eat.",3,24,3025
+383,Interested in trying new activities & experiences,{NAME} is interested in doing new activities & trying new experiences.,3,24,3026
+384,Matches various objects to their uses,"{NAME} match various objects to their uses such as a pot for cooking, a broom for sweeping, or a shovel for digging.",3,25,3125
+385,Follows 2-step instructions,"{NAME} can follow 2-step instructions such as, ""Go in the other room & get your shoes.""",3,26,3190
+386,Names known images in books,"{NAME} can recognize & name images that {HESHE} knows in books such as a car, house, or tree.",3,26,3210
+387,Asks questions about the world,"{NAME} ask questions about the world such as, ""Where does the squirrel sleeps at night?"" or ""Why is the sky blue?""",3,27,3309
+388,Stacks rings in order from large to small,{NAME} is able stack rings in order from large to small demonstrating understanding of relative size & sequencing. ,3,27,3308
+389,Group toys by type size or color,{NAME} can group toys by type size or color.,3,28,3399
+390,Sits to look at books independently,"{NAME} can sit to look at books independently even if, [{HESHE} prefers to have you read the book to {HERHIM}.",3,28,3400
+391,Asks questions to understand words,{NAME} asks questions to understand words {HESHE} doesn't understand.,3,29,3501
+392,Is able to locate objects that you are pointing to,{NAME} is able to follow the direction of your finger & is able to locate objects to which you are pointing.,3,29,3492
+393,Recognizes {HIMSELFHERSELF} in the mirror,{NAME} can identify {HIMSELFHERSELF} when looking in a mirror.,3,30,3595
+394,Explores surroundings,{NAME} is curious & explores {HISHER} surroundings.,3,30,3596
+395,Understands the order sequence of familiar events,"{NAME} understands the order sequence of familiar events such as getting undressed, putting on pajamas, brushing teeth, read a story, & go to bed.",3,31,3714
+396,Can pay attention for 5 minutes,{NAME} can pay attention to a toy or and activity for 5 minutes before getting distracted. ,3,31,3713
+397,Can create & explain unique play scenarios ,{NAME} can create & explain unique play scenarios that {HESHE} has never experienced like flying on a dragon.,3,31,3730
+398,Finds unique ways to solve problems,{NAME} finds unique ways to solve problems such as using a broom to retrieve a toy from underneath the couch.,3,32,3820
+399,Can detect patterns,"{NAME} can detect patterns such as matching edges of puzzle pieces to each other, in clapping sequences or in sequence of stripes.",3,33,3935
+400,Matches circles & squares,{NAME} can match circles & squares.,3,33,3933
+401,Realizes that {HESHE} can do things on {HISHER} own,{NAME} may begin to realize that {HESHE} can do things on {HISHER} own.,3,34,4035
+402,Recognizes when a toy is missing & searches for it,{NAME} recognizes when a toy is missing & searches for it.,3,35,4104
+403,Can point to the correct picture when asked to identify it,{NAME} can point to the correct picture when asked to identify it.,3,35,4103
+404,Can show age by holding up fingers when asked,{NAME} can show age by holding up fingers when asked.,3,36,4210
+405,Remembers & talks about things that happened in the past,{NAME} remembers & talks about things that happened in the past like taking the cat to the vet last week.,3,36,4212
+406,Can remove & put back on some clothing,{NAME} can remove & put back on some clothing,3,36,4088
+407,Follows 3-step directions,{NAME} follows 3-step directions.,3,37,
+408,Knows most colors,{NAME} knows most colors.,3,37,
+409,Understands same & different,{NAME} understand the concept of same & different.,3,38,
+410,Forms theories about objects or situations,{NAME} forms theories about objects or situations such as where the sun goes at night.,3,39,
+411,Remembers parts of a story,{NAME} remembers parts of a story.,3,40,
+412,"Understands time in terms of morning, afternoon, & night","{NAME} understands the concept of time in terms of knowing the difference between morning , afternoon, & night.",3,41,
+413,"Understands concepts of ownership such as ""his"" & ""hers""","{NAME} understands concepts of ownership such as ""his"" & ""hers"".",3,42,
+414,"Understands what ""two"" means","{NAME} understands what ""two"" means such as having two cookies is different than one cookie.",3,43,
+415,Can select 3 similar items out of a set of 4,{NAME} can select 3 similar items out of a set of 4 such as choosing 3 pots out of a group of pot-pot-spoon-pot.,3,44,
+416,Makes plans for future activities,{NAME} makes plans for future activities such as a birthday party or a playdate.,3,44,
+417,Plays with new toys in a variety of ways,{NAME} plays with new toys in a variety of ways.,3,45,
+418,Feeds self without difficulty,{NAME} feeds self without difficulty.,3,46,
+419,Can differentiate between real & pretend world,{NAME} can differentiate between real & pretend world.,3,46,
+420,Tries to engage others in {HISHER} imaginary scene,{NAME} is able to create and imaginary scene using different objects in order engage others in play such as serving someone food as if they are in a restaurant.,3,47,
+421,Counts up to 4 objects,{NAME} counts up to 4 objects.,3,47,
+422,Follows basic rules of grammar,{NAME} follows basic rules of grammar,3,47,
+423,Begins to understand days of the week,{NAME} begins to understand the concepts of time: Days of the week,3,47,
+424,Self-soothes by sucking on hands or fingers,{NAME} self-soothes by sucking on hands or fingers.,4,2,139
+425,Stops nursing to respond with a smile,{NAME} stops nursing to respond with a smile.,4,2,163
+426,Maintains eye contact with you,{NAME} maintains eye contact with you.,4,2,161
+427,Expresses likes & dislikes,{NAME} expresses likes & dislikes.,4,2,162
+428,Lifts head while on stomach to look at you,{NAME} lifts head while on stomach to look at you.,4,2,130
+429,Settles down when beginning to feed,{NAME} settles down when beginning to feed.,4,2,166
+430,"Different cries for hunger, pain, being tired","{NAME} expresses different cries for hunger, pain, & being tired.",4,3,272
+431,Smiles in response to a smile,{NAME} smiles in response to a smile.,4,3,271
+432,Expresses anticipation,{NAME} expresses anticipation such as seeing you prepare a bottle.,4,3,273
+433,Looks away to take a break from engagement or activity,{NAME} looks away to take a break from engagement or activity.,4,3,422
+434,Notices family members when they approach,{NAME} notices family members when they approach.,4,3,276
+435,Calms down in anticipation of being picked up,{NAME} calms down in anticipation of being picked up.,4,3,286
+436,Calms down when held,{NAME} calms down when held.,4,3,274
+437,"Responds to people by crying, smiling, or laughing","{NAME} responds to people by crying, smiling, or laughing.",4,4,389
+438,Enjoys looking at {HIMSELFHERSELF} in mirror,{NAME} enjoys looking at {HIMSELFHERSELF} in mirror.,4,4,377
+439,Interested in people's faces & voices,{NAME} interested in people's faces & voices.,4,4,382
+440,Watches facial expressions,{NAME} watches facial expressions.,4,4,390
+441,Smiles in order to keep your attention,{NAME} smiles in order to keep your attention.,4,4,384
+442,Calms down when clean diaper is put on,{NAME} calms down when clean diaper is put on.,4,4,388
+443,"Expresses discomfort by ""whining""","{NAME} expresses discomfort by ""whining"".",4,5,726
+444,"Shows enjoyment by ""talking""","{NAME} shows enjoyment by ""talking"".",4,5,578
+445,Expresses boredom,{NAME} expresses boredom.,4,5,503
+446,Protests when passed to a new person,{NAME} protests when passed to a new person.,4,5,504
+447,Shifts attention between you & and object of interest,{NAME} shifts attention between you & and object of interest.,4,5,495
+448,Stranger anxiety,{NAME} shows anxiety around strangers.,4,6,666
+449,Reacts to emotional tones,{NAME} reacts to emotional tones such as encouragement or disapproval.,4,6,730
+450,Behaves differently with different people,{NAME} behaves differently with different people.,4,6,673
+451,Stretches arms to be picked up,{NAME} stretches arms to be picked up.,4,6,689
+452,Expresses hunger,"{NAME} lets you know when {HESHE} is hungry by crying, fussing, or using agitated movements.",4,6,726
+453,Repeats your actions,{NAME} repeats your actions such a shaking a rattle or making silly faces.,4,6,665
+454,Clings to you when scared,{NAME} clings to you when scared.,4,6,679
+455,Sighs & stops crying when you come to comfort {HERHIM},{NAME} sighs & stops crying when you come to comfort {HERHIM}.,4,6,679
+456,Separation anxiety,{NAME} shows anxiety when you leave the room or leave the house.,4,7,822
+457,Opens mouth near food & drink,{NAME} opens mouth near food & drink.,4,7,854
+458,Spits out food when no longer wants it,{NAME} spits out food when [he/she] no longer wants it.,4,7,838
+459,Protests when you step away,{NAME} protests when you move away from {HERHIM}.,4,7,822
+460,Laughs when happy,{NAME} laughs when happy.,4,7,833
+461,Turns head away to hide when scared while being held,{NAME} turns head away to hide while being held when scared of a person or object.,4,7,824
+462,Repeats noise or action to keep your attention,{NAME} repeats noise or action in order to keep your attention.,4,7,853
+463,Prefers certain toys,{NAME} prefers certain toys.,4,8,993
+464,Pushes away drink when no longer wants it,{NAME} pushes away drink when no longer wants it.,4,8,1067
+465,Turns head away from food when full,{NAME} turns head away from food when full.,4,8,1067
+466,Reacts to unusual behavior,{NAME} reacts to unusual behavior such as a sibling doing a somersault.,4,8,1060
+467,Kicks at diaper when being changed,{NAME} kicks at diaper when being changed to let you know that [he/she] does not want to be changed.,4,8,923
+468,Cries when toy is taken away,{NAME} cries & grabs at your arm when a toy or desired object is taken away.,4,8,1008
+469,Moves towards you to be closer,{NAME} moves towards you to be closer.,4,8,904
+470,Expresses impatience,{NAME} expresses impatience.,4,9,1258
+471,Screams in frustration,{NAME} screams in frustration.,4,9,1258
+472,Expresses displeasure,"{NAME} expresses displeasure such as not liking certain textures or smells, the taste of certain foods, or activity like being put in the car seat.",4,9,1258
+473,Stares at pictures in book,{NAME} stares at pictures in book.,4,9,1264
+474,Turns head away from something not wanted,{NAME} turns head away from something not wanted like food or toy.,4,9,889
+475,Pushes away object not wanted,{NAME} pushes away object not wanted such as food or toy.,4,9,889
+476,Points to objects & shows them to others,{NAME} points at things to draw your attend to them & to share with you the things that {HESHE} enjoys.,4,9,1182
+477,Increased anxiety after time away from you,{NAME} increased & continued anxiety after you return from being away for and extended period of time in order to let you know that {HESHE} is upset.,4,9,826
+478,Hands object to engage person,{NAME} hands object to engage you or another person.,4,10,1438
+479,Self-soothes with toy or blanket,{NAME} self-soothes with toy or blanket.,4,10,1371
+480,Crawls after you when you are leaving,{NAME} crawls after you when you are leaving in order to go with you.,4,10,1374
+481,Pushes toy on floor repeatedly to get you to pick it up,{NAME} pushes toy on floor repeatedly to get you to pick it up.,4,10,1399
+482,"Reaches up to you for comfort when ""hurt""","{NAME} reaches up to you for comfort when ""hurt"".",4,10,1448
+483,Push your hand away when not wanting to put clothes on,{NAME} push your hand away when not wanting to put clothes on.,4,10,1448
+484,Expresses frustration & looks to you for help,{NAME} expresses frustration & looks to you for help.,4,10,1448
+485,Enjoys simple games: peekaboo & pattycake,{NAME} enjoys simple games such as peekaboo & pattycake.,4,11,1525
+486,Reacts to reflection of their face in mirror,{NAME} reacts to reflection of their face in mirror.,4,11,1560
+487,Points at things to get you to notice them,{NAME} points at things to get you to notice them.,4,11,1562
+488,Takes turns doing and activity with you,{NAME} takes turns doing and activity with you.,4,11,1498
+489,"""Shares"" food with you","{NAME} ""shares"" food with you.",4,11,1693
+490,Able to become calm by holding object.,{NAME} is able to calm down when given and object to hold when in distress.,4,12,1723
+491,Wipes own face when offered a napkin,{NAME} wipes {HISHER} own face when offered a napkin.,4,12,1724
+492,Can choose a favorite toy to take along when leaving home,{NAME} can choose a favorite toy to take along when leaving home.,4,12,1725
+493,Comes to you when called,{NAME} comes to you when called.,4,12,1722
+494,Goes to parent or sibling when directed,{NAME} goes to parent or sibling when directed.,4,12,1759
+495,Hands toy to you to keep play going,{NAME} hands toy to you to keep you playing with {HERHIM}.,4,12,1728
+496,Smiles & laughs in reaction to a person's actions,{NAME} smiles & laughs in reaction to a your or another person's actions such as making silly faces or using a pot as a hat.,4,12,1756
+497,Watches other kids play,{NAME} watches other kids play.,4,13,1884
+498,Attempts daily activities,{NAME} attempts daily activities such as brushing hair or feeding you while you feed {HERHIM}.,4,13,1842
+499,Invites you to play,{NAME} invites you or others to play.,4,13,1843
+500,Seeks out activities that are enjoyed,{NAME} seeks out activities that are enjoyed such as a favorite game or puzzle.,4,13,1885
+501,Shows affection to familiar people,{NAME} shows affection to familiar people without being asked.,4,13,1882
+502,Tries to engage you in play by bringing toy to you,{NAME} tries to engage you in play by bringing toy to you.,4,14,1956
+503,Tries to make you laugh,{NAME} tries to make you laugh by repeating and action that received one before,4,14,1997
+504,Raises arms when wanting to be picked up,{NAME} raises arms when wanting to be picked up.,4,14,2005
+505,"Express happiness, sadness & frustration","{NAME} express happiness, sadness & frustration.",4,14,2005
+506,Begins to assert independence,{NAME} is beginning to assert independence.,4,15,2064
+507,Engages in silly behavior with objects to get attention,{NAME} engages in silly behavior with objects to get attention.,4,15,1997
+508,Helps with simple daily chores,{NAME} helps with simple daily chores.,4,15,1946
+509,"Interested in ""helping"" to stay engaged with you","{NAME} is interested in ""helping"" to stay engaged with you.",4,15,1990
+510,Mild temper tantrums when frustrated,{NAME} has mild temper tantrums when frustrated.,4,16,2178
+511,"""Checks in"" with you regularly when playing on own","{NAME} ""checks in"" with you regularly when playing on own by looking over at you regularly.",4,16,2180
+512,Wants attention from you most of the time,{NAME} wants attention from you most of the time.,4,16,2172
+513,Understands the concept of ownership,"{NAME} understands the concept of ownership by saying ""mine"".",4,16,2179
+514,Tolerates help staying with a task even when upset,{NAME} tolerates help staying with a task even when upset.,4,16,2187
+515,Expresses a desire to do things by {HIMSELFHERSELF},{NAME} expresses a desire to do things by {HIMSELFHERSELF}.,4,17,2291
+516,Expresses a desire to do things {HISHER} own way,{NAME} expresses a desire to do things {HISHER} own way.,4,17,2182
+517,Reacts to familiar songs & stories,{NAME} reacts to familiar songs & stories.,4,17,2293
+518,Cries when someone else nearby is upset,{NAME} shows empathy by crying when someone else nearby is upset.,4,17,2292
+519,Can calm {HIMSELFHERSELF} down with help,{NAME} can calm [himself/herself] down with encouraging words from you.,4,18,2413
+520,Can stop doing a desired task & shift to a different activity,{NAME} can stop doing a desired task & shift to a different activity such as switching {HISHER} attention from a puzzle to putting on {HISHER} shoes.,4,18,2412
+521,Comfortable exploring the room when you are nearby,{NAME} is comfortable exploring the room when you are nearby.,4,18,2419
+522,Can express & share enjoyment with you,{NAME} can express {HISHER} enjoyment & want to share it with you.,4,19,4014
+523,Able to remain patient for longer periods of time,{NAME} able to remain patient for longer periods of time before and anticipated activity like going to the park or playdate.,4,19,2525
+524,Repeats actions that made someone laugh,{NAME} repeats actions that made someone laugh such as putting on your sunglasses.,4,19,1641
+525,Remains engaged in and activity longer.,{NAME} can stay engaged in and activity with you for longer periods of time.,4,20,2635
+526,Requests objects that soothe when upset,{NAME} requests objects that soothe when upset such as asking for a teddy bear when getting a shot.,4,20,2636
+527,Is able to calm down more quickly after being upset,{NAME} is able to calm down more quickly after being upset.,4,20,2642
+528,"Can observe, listen, understand, & choose to follow instructions","{NAME} can observe, listen, understand, & choose to follow instructions.",4,21,2743
+529,Begins to have patience to take turns,{NAME} is beginning to have patience to take turns while playing a game.,4,21,2742
+530,Able to calm down when upset when redirected,{NAME} is able to calm down when upset when redirected.,4,22,2847
+531,Does not share willingly,{NAME} does not share willingly.,4,23,2956
+532,Expresses {HISHER} feelings with words & actions,{NAME} expresses {HISHER} feelings with words & actions.,4,23,2949
+533,Uses words to show you {HISHER} achievements,{NAME} uses words to show you {HISHER} achievements such as telling you to look at the puzzle {HESHE} has completed.,4,23,2947
+534,Has unpredictable behavior,{NAME} has unpredictable behavior such as suddenly running out into the street.,4,24,3042
+535,Talks to you about subject of interest to engage you,{NAME} talks to you about subject of interest to engage you such as telling you all about dinosaurs.,4,24,3043
+536,Begins to negotiate,{NAME} is beginning to negotiate when activity is not in {HISHER} interest or favor such as asking for a shorter nap time in exchange for eating all of {HISHER} lunch.,4,24,3044
+537,"Can calm self down, then tell you what is needed","{NAME} can calm {HIMSELFHERSELF} down, then tell you what {HESHE} needs or wants.",4,24,3045
+538,Mimics others speech & behavior,"{NAME} mimics the words that you or others use, the way that you talk, or act.",4,25,3135
+539,"Plays next to children, but not with them","{NAME} plays next to children, but not with them. This is called ""Parallel play"".",4,25,3134
+540,Chooses to disobey,{NAME} makes a conscience decision to disobey.,4,25,3136
+541,Enjoys being near other kids,{NAME} enjoys being near other kids.,4,26,3230
+542,Has a strong sense of ownership,{NAME} has a strong sense of ownership.,4,26,3229
+543,Treats doll or stuffed animal as if it was alive,{NAME} treats doll or stuffed animal as if it was alive.,4,27,3320
+544,Shows wider range of emotions,"{NAME} shows wider range of emotions such as joy, frustration, & excitement.",4,28,3412
+545,"Plays alongside other children, but not with them","{NAME} plays independently alongside other children, but not with them.",4,29,3509
+546,Still confuses pretend play with reality,{NAME} still confuses pretend play with reality such as believing the dragon from the movie is real or {HISHER} stuffed animals are alive.,4,29,3508
+547,Spontaneously kind & caring,{NAME} is spontaneously kind & caring.,4,30,3612
+548,Shares {HISHER} ideas & listens to others ideas,{NAME} shares {HISHER} ideas & listens to others ideas.,4,30,3611
+549,Has awareness of parental approval & disapproval,{NAME} has awareness of parental approval & disapproval.,4,31,3731
+550,Can explain imaginary play scenario to invite others to play,"{NAME} can explain imaginary play scenario to invite others to play such as ""playing restaurant"".",4,31,3732
+551,Tests boundaries,{NAME} is beginning to tests boundaries such as attempting to do things that are not allowed.,4,32,3839
+552,Is able to transition to new environment or activity,{NAME} is able to transition to new environment or activity calmly.,4,32,3840
+553,Respects simple rules,{NAME} respects simple rules such as no running in the kitchen.,4,34,3998
+554,Can tolerate & stay calm during haircuts,{NAME} can tolerate & stay calm during haircut.,4,34,3046
+555,Asks for permission,{NAME} asks for permission.,4,35,4121
+556,Defends {HISHER} possessions,{NAME} defends {HISHER} possessions.,4,35,3056
+557,Has fewer tantrums,{NAME} has fewer tantrums.,4,36,4146
+558,Plays with other kids independently,{NAME} plays with other kids independently through Associative Play.,4,36,4231
+559,Becoming more independent,{NAME} is becoming more independent such as playing without you or needing your constant attention.,4,36,4232
+560,Imitates adults & children older than {HERHIM},{NAME} imitates adults & children older than {HERHIM} such as and adult talking on the phone or and older kid playing video games.,4,37,
+561,Requests permission to do things,{NAME} requests permission to do things.,4,37,
+562,Shows affection for people without being asked,{NAME} shows affection for people without being asked.,4,38,
+563,Joins other children who are playing,{NAME} joins other children who are playing.,4,38,
+564,Is concerned when familiar person is crying,"{NAME} shows empathy & is concerned when familiar person is crying, such as a friend or sibling.",4,39,
+565,Is able to play in social situations after a transition time,{NAME} is able to play in social situations after a time of transition such as 5 minutes of watching.,4,39,
+566,Is patient enough to take turns while playing,{NAME} is patient enough to take turns while playing.,4,40,
+567,May have irrational fears,{NAME} may have irrational fears such as monsters or going down the drain.,4,41,
+568,Tries to understand social situations,{NAME} tries to understand social situations by reenacting them during play such as replaying something that happened at the playground.,4,42,
+569,May get upset with major changes in routine,{NAME} may get upset with major changes in routine such as taking a nap at a different time or not going to the park.,4,43,
+570,Begins to share toys,{NAME} is beginning to share toys with others.,4,46,
+571,Separates easily from you,{NAME} separates easily from you without becoming distressed.,4,47,
+572,Begins to find ways to resolve arguments ,{NAME} is beginning to find ways to resolve arguments.,4,47,
+573,Follows objects with eyes,{NAME} follows objects with eyes.,5,2,186
+574,Gazes towards moving object,{NAME} gazes towards moving object.,5,2,197
+575,Aware of sounds & smells,{NAME} is aware of sounds & smells.,5,2,199
+576,Responds when you talk by becoming quiet,{NAME} responds when you talk by becoming quiet.,5,2,206
+577,Looks at your face when you approach,{NAME} looks at your face when you approach.,5,2,171
+578,"""Roots"" or searches for sources of food when hungry","{NAME} ""roots"" or searches for sources of food when hungry.",5,2,3286
+579,Turns head away from light,{NAME} turns head away from light.,5,2,187
+580,Switches gaze between object being shown & your face,{NAME} switches gaze between object being shown & your face.,5,2,172
+581,Looks in direction of sounds,{NAME} looks in direction of sounds.,5,3,270
+582,Tracks objects with eyes,{NAME} tracks objects with eyes.,5,3,281
+583,Recognizes your voice,{NAME} recognizes your voice.,5,3,269
+584,Touches your face when kissed,{NAME} touches your face when kissed.,5,3,295
+585,Gazes attentively,{NAME} gazes attentively especially when you talk to {HERHIM}.,5,3,268
+586,Watches you when you are within field of vision,{NAME} watches you when you are within {HISHER} field of vision.,5,3,282
+587,Crosses eyes when object is moved close to face,{NAME} crosses eyes when object is moved close to face.,5,3,278
+588,Sees objects clearly at a distance of 1 - 2 feet,{NAME} sees objects clearly at a distance of 1 - 2 feet.,5,3,276
+589,Follows dangling red ball 180 degrees horizontally & vertically,{NAME}'s eyes follow dangling red ball 180 degrees horizontally & vertically. This demonstrates that {HISHER} eyes are tracking the ball.,5,3,275
+590,"Responds to rhythm, music & singing","{NAME} responds to rhythm, music & singing.",5,4,298
+591,Puts everything in mouth,{NAME} puts everything in mouth to explore texture & taste.,5,4,367
+592,Looks at own hands,{NAME} looks at own hands.,5,4,397
+593,Sticks out tongue to imitate others,{NAME} sticks out tongue to imitate others.,5,4,427
+594,Strokes own face with hands,{NAME} strokes own face with hands.,5,5,560
+595,Rubs toys on head or cheek,{NAME} rubs toys on head or cheek.,5,5,513
+596,Notices toys that make sounds,{NAME} notices toys that make sounds.,5,5,490
+597,Watches toy falls from field of vision,{NAME} watches toy as it falls out of {HISHER} sight.,5,5,514
+598,Touches your mouth while you talk,{NAME} touches your mouth while you talk.,5,6,644
+599,Bites objects put in mouth,{NAME} bites objects put in mouth.,5,6,686
+600,Kicks stroller or crib to make sounds,{NAME} kicks stroller or crib to make sounds.,5,6,610
+601,Squeezes a toy to hear the noise,{NAME} squeezes a toy to hear the noise.,5,6,687
+602,Follows with eyes person moving across a room,{NAME} follows with eyes person moving across a room.,5,6,689
+603,Opens mouth to be fed,{NAME} opens mouth to be fed.,5,6,688
+604,No longer startled by everyday sounds,{NAME} no longer startled by everyday sounds such as a door slamming or a car honking.,5,6,690
+605,Responds to different voices,{NAME} responds differently to different voices such as your & your parents.,5,7,825
+606,Turns & looks in the directions of noises or talking,{NAME} turns & looks in the directions of noises or talking.,5,7,831
+607,Bangs on objects to make noise,{NAME} bangs on objects to make noise.,5,7,786
+608,Smashes food to explore texture,{NAME} smashes food to explore texture.,5,7,838
+609,Loves playing with paper,{NAME} loves playing with paper.,5,7,840
+610,Can distinguish between familiar to unfamiliar voices,{NAME} can distinguish between familiar to unfamiliar voices.,5,7,828
+611,Distinguishes different sounds,{NAME} distinguishes between different sounds such as the front door closing & the microwave beeping.,5,8,1031
+612,Looks when you point to objects,{NAME} looks when you point to objects.,5,8,1011
+613,Turns when you call {HISHER} name,{NAME} turns when you call {HISHER} name.,5,8,983
+614,Uses tongue to move food around mouth,{NAME} uses tongue to move food around mouth.,5,8,1013
+615,"Investigates shapes, sizes, & textures of objects","{NAME} investigates shapes, sizes, & textures of objects.",5,8,1015
+616,Reaches for nearby food,{NAME} reaches for nearby food.,5,8,1012
+617,Craves chew toys,{NAME} craves chew toys.,5,8,1030
+618,Reaches for water when faucet is turned onto wash hands,{NAME} reaches for water when faucet is turned onto wash hands.,5,9,1202
+619,Explores object's texture by putting in mouth,{NAME} explores object's texture by putting in mouth.,5,9,1228
+620,Watches people in distance,{NAME} watches people in distance.,5,9,1235
+621,Enjoys a variety of types of movements,{NAME} enjoys a variety of types of movements such as bouncing or rocking.,5,9,1115
+622,Focuses on objects near & far,{NAME} focuses on objects near & far.,5,9,1200
+623,Observes environment from a variety of body positions,{NAME} observes environment from a variety of body positions such as sitting or lying down.,5,9,1093
+624,Shows strong reaction to new smells & tastes,{NAME} shows strong reaction to new smells & tastes.,5,9,1234
+625,Shows interest in where people are looking or pointing,{NAME} shows interest in where people are looking or pointing.,5,9,1204
+626,Recognizes beginning of song,{NAME} recognizes beginning of song.,5,10,1441
+627,Tolerates a range of different textured foods,{NAME} tolerates a range of different textured foods.,5,10,1391
+628,Enjoys listening to songs,{NAME} enjoys listening to songs.,5,10,1441
+629,Forms associations between familiar smells & tastes,{NAME} forms associations between familiar smells & tastes.,5,10,1424
+630,Recognizes familiar people at distance of 20 feet or more,{NAME} recognizes familiar people at distance of 20 feet or more.,5,11,1570
+631,"Explores objects with hands, fingers, & mouth","{NAME} explores objects with hands, fingers, & mouth.",5,11,1149
+632,Crawls to object in distance,{NAME} crawls to object in distance.,5,11,1469
+633,Enjoys different textures,"{NAME} enjoys different textures such as the feel of food, a soft blanket, paint, etc.",5,11,1585
+634,Explores objects using fingers & mouth,{NAME} explores objects using fingers & mouth.,5,11,1613
+635,Watches movement of other people with interest,{NAME} watches movement of other people with interest.,5,12,1731
+636,Reacts to extremes in temperature,{NAME} reacts to extremes in temperature.,5,12,1589
+637,Understands many familiar sounds & words,{NAME} understands many familiar sounds & words.,5,12,1634
+638,Moves towards sounds in distance,{NAME} moves towards sounds in distance.,5,12,1742
+639,Bothered by wet diaper,{NAME} is now bothered by having to wear a wet diaper.,5,13,1862
+640,Enjoys messy play,{NAME} enjoys messy play.,5,16,2199
+641,Understands some common dangers,"{NAME} understands common dangers such as a hot stove, stairs, & broken glass.",3,17,2312
+642,Can tell the difference between edible & inedible objects,{NAME} can tell the difference between edible & inedible objects such as a toy apple & a real apple.,5,18,2456
+643,Recognizes fine detail in images,{NAME} recognizes fine detail in images such as the feathers on a bird or the teeth on a dinosaur.,5,24,3064
+644,Enjoys various textures after multiple exposures,{NAME} enjoys various textures after multiple exposures.,5,29,3533
+645,Makes sounds & moves arms & legs when excited,{NAME} makes sounds & moves arms & legs when excited.,6,2,163
+646,Smiles when kissed,{NAME} smiles when kissed.,6,2,183
+647,Smiles in response to your singing,{NAME} smiles in response to your singing.,6,2,190
+648,Squeals when excited,{NAME} squeals when excited.,6,2,206
+649,Expresses sounds of pleasure when picked up,{NAME} expresses sounds of pleasure when picked up.,6,2,206
+650,Begins to show self-regulation of crying,{NAME} begins to show self-regulation of crying.,6,2,166
+651,Gurgles when happy,{NAME} gurgles when happy.,6,3,271
+652,Makes cooing sounds,{NAME} makes cooing sounds in response to you or seeing something interesting.,6,3,310
+653,"Makes and ""ah"" sound","{NAME} makes and ""ah"" sound.",6,3,309
+654,Touches your arm while feeding,{NAME} touches your arm while feeding.,6,3,265
+655,Makes vowel-like sounds,"{NAME} makes vowel-like sounds such as ""ahh"", ""eee"", ""oh"".",6,4,425
+656,Giggles & laughs,{NAME} giggles & laughs.,6,4,424
+657,Uses body language to communicate,{NAME} uses body language to communicate such as turning away to communicate that {HISHER} wants that diaper change to be over.,6,4,422
+658,Makes bursts of sounds,{NAME} makes bursts of sounds.,6,5,579
+659,Makes sounds in response to social contact,{NAME} makes sounds in response to social contact.,6,5,578
+660,Expresses sounds to communicate pleasure or frustration,{NAME} expresses sounds to communicate pleasure or frustration.,6,5,576
+661,Makes different sounds in response to different situations,"{NAME} makes different sounds in response to different situations such as ""eee"" when {HISHER} sees the bottle or ""oh, oh"" when shown a new toy.",6,5,576
+662,Uses body to help communicate needs,{NAME} uses body to help communicate needs like touching you to get your attention.,6,5,574
+663,Makes various sounds & laughs,{NAME} makes various sounds & laughs.,6,6,677
+664,Listens & imitates sounds,{NAME} listens & imitates sounds.,6,6,722
+665,"""Interrupts"" when people are talking","{NAME} ""interrupts"" when people are talking.",6,6,722
+666,Babbles ,{NAME} babbles by making random noises.,6,6,1058
+667,Makes sing-song sounds ,{NAME} makes sing-song sounds.,6,6,725
+668,"Makes speech-like sounds such as ""pa"", ""ba"" & ""mi""","{NAME} makes speech-like sounds such as ""pa"", ""ba"" & ""mi"".",6,6,724
+669,"Makes ""mmm mmm"" sound when tastes something yummy","{NAME} makes ""mmm mmm"" sound when tastes something yummy.",6,6,723
+670,Babbles long strings of sounds,"{NAME} babbles long strings of sounds such as ""babababa"", ""mimi"", ""upupup"".",6,7,1257
+671,Tries out making different noises with mouth,{NAME} tries out making different noises with {HISHER} mouth.,6,7,888
+672,"Makes ""raspberry"" noises with tongue","{NAME} makes ""raspberry"" noises with tongue.",6,7,881
+673,"""Sings"" along with you","{NAME} ""sings"" along with you.",6,8,1058
+674,Makes new sounds with lips & tongue,{NAME} makes new sounds with lips & tongue.,6,8,1059
+675,Understands a few words for some common items,{NAME} understands a few words for some common items such as bottle.,6,8,1060
+676,Cries & look for help when toy drops out of reach,{NAME} cries & look for help when toy drops out of reach.,6,8,1033
+677,Expresses displeasure doesn't want to do something,{NAME} expresses displeasure doesn't want to do something like putting on shoes.,6,8,1065
+678,"Says ""eh"" to get attention","{NAME} says ""eh"" to get attention.",6,9,1262
+679,Clicks tongue,{NAME} clicks tongue.,6,9,1254
+680,Makes sounds & uses gestures to get & keep your attention,{NAME} makes sounds & uses gestures to get & keep your attention.,6,9,1256
+681,Changes sounds made to communicate feelings,"{NAME} changes sounds {HESHE} makes to communicate feelings such as happiness, frustration, or hunger.",6,9,1258
+682,Lets you know when {HISHER} is done with a task,{NAME} lets you know when {HESHE} is done with a task such as pulling off bib when done eating.,6,9,1260
+683,Uses gestures to ask for things,{NAME} uses gestures to ask for things such as holding out sippy cup to get more juice.,6,9,1182
+684,Makes noise & touches you to get attention,{NAME} makes noise & touches you to get attention.,6,9,1182
+685,"Shakes head to indicate ""no""","{NAME} shakes head to indicate ""no"".",6,9,1624
+686,"Makes two different vowel sounds like ""o"", ""a"" or ""e""","{NAME} makes two different vowel sounds like ""o"", ""a"" or ""e"".",6,9,1254
+687,"Makes ""d"",""b"", ""l"", ""m"" sounds","{NAME} makes ""d"",""b"", ""l"", ""m"" sounds.",6,10,1444
+688,Begins to understand more words,{NAME} is beginning to understand more words.,6,10,1443
+689,Likes to babble,{NAME} likes to babble.,6,10,1445
+690,Communicates by making gestures,"{NAME} communicates by making gestures such as waving bye, shaking head, or reach to be picked up",6,10,1439
+691,Uses body language to engage you in and activity,{NAME} uses body language to engage you in and activity such as handing you a book to read to {HERHIM}.,6,10,1438
+692,Makes noise to respond to you calling {HISHER} name,{NAME} makes noise to respond to you calling {HISHER} name.,6,10,1364
+693,Makes 3 vocal sounds,"{NAME} makes 3 vocal sounds like giving ""raspberries"", whining, & laughing.",6,10,1444
+694,Notices noise made when yawning,{NAME} notices noise made when yawning.,6,11,1619
+695,Listens for response to {HISHER} babbling,{NAME} listens for response to {HISHER} babbling.,6,11,1625
+696,Starts to respond to commands & questions,"{NAME} is starting to respond to commands & questions such as ""No,"" ""Come here"", ""Want more?""",6,11,1625
+697,Makes sounds pairing vowel & consonant together,"{NAME} makes sounds pairing vowel & consonant together like ""dada"", ""mama"" or ""baba"".",6,11,1628
+698,"Babbles - ""dada"", ""momom"", ""abba""","{NAME} babbles - ""dada"", ""momom"", ""abba"".",6,12,1760
+699,Understands certain frequently used words,"{NAME} understands certain frequently used words such as juice, cup, snack, toy.",6,12,1711
+700,Responds to frequently used words,"{NAME} responds to frequently used words such as ""Where is your cup?""",6,12,1714
+701,Babbles with inflection,{NAME} babbles with inflection.,6,12,1764
+702,Says first word,{NAME} has said First Word!,6,12,1758
+703,Points at objects to get you to name it,{NAME} points at objects to get you to name it.,6,12,1765
+704,Tries to imitate silly noises made by others,"{NAME} tries to imitate silly noises made by others such as ""brrr"".",6,12,1756
+705,Copies sounds that you make,{NAME} copies sounds that you make.,6,12,1757
+706,Recognize words for common items,"{NAME} recognize words for common items such as plate, car, dog, or tree.",6,12,1965
+707,"Says 2 - 6 words other than ""mama"" & ""dada""","{NAME} says 2 - 6 words other than ""mama"" & ""dada"".",6,13,1890
+708,"Says ""uh-oh"" when something drops","{NAME} says ""uh-oh"" when something drops.",6,13,1894
+709,Makes animals sounds ,{NAME} makes animals sounds when pointing to and image of the animal.,6,13,1896
+710,Imitates simple gestures to communicate,{NAME} imitates simple gestures to communicate like blowing a kiss.,6,13,1882
+711,Communicates preferences,{NAME} communicates preferences such as a favorite toy.,6,13,1851
+712,Indicates preferred food or toy when not offered,{NAME} indicates preferred food or toy when not offered such as bringing you a different snack then the one you are preparing.,6,13,1885
+713,Uses hand gestures to emphasize speech,{NAME} uses hand gestures to emphasize speech such as pointing to a toy that [he/she] wants.,6,14,1993
+714,Uses inflection to indicate a question,{NAME} uses inflection to indicate a question.,6,14,1995
+715,Attempts to get attention by using words or sounds,{NAME} attempts to get or keep attention by using words or sounds made by animals or cars.,6,14,2097
+716,Communicates to share interests with you,{NAME} communicates to share interests with you such as pointing to a squirrel or bringing you a toy dinosaur.,6,14,1956
+717,"Uses index finger in ""shhh"" gesture","{NAME} uses index finger in ""shhh"" gesture.",6,14,1991
+718,"Says ""no"" to refuse food or activity","{NAME} says ""no"" to refuse food or activity.",6,14,1948
+719,10 word vocabulary of expressions,{NAME} 10 word vocabulary of expressions that have meaning to {NAME}.,6,15,2102
+720,"Communicates ""no"" or ""I don't know"" with words or gestures","{NAME} can communicate ""no"" or ""I don't know"" with words or gestures",6,15,2055
+721,Calls to you to get your attention,{NAME} calls to you to get your attention.,6,15,2214
+722,"Can communicate ""yes"" by nodding head","{NAME} can communicate ""yes"" by nodding head.",6,15,2097
+723,"Gives a thumbs up to indicate ""yes""","{NAME} gives a thumbs up to indicate ""yes"".",6,15,2097
+724,"Holds hand up to indicate ""wait""","{NAME} holds hand up to indicate ""wait"".",6,15,2097
+725,"Answers a question with words, sounds or gestures","{NAME} can answer a question with words, sounds or gestures.",6,15,2096
+726,Comprehends more than can speak,{NAME} comprehends more words than can [he/she] speak.,6,16,2218
+727,Waves goodbye,{NAME} waves goodbye.,6,16,2229
+728,"Makes ""t"",""d"", ""n"", ""w"", ""h"" sounds","{NAME} makes ""t"",""d"", ""n"", ""w"", ""h"" sounds.",6,16,2215
+729,Intentionally directs speech at you,{NAME} intentionally directs speech at you.,6,16,2214
+730,Uses symbolic gestures,"{NAME} uses symbolic gestures such as ""high 5"" & peace sign.",6,16,2217
+731,Says 8 to 10 words others can understand,{NAME} says 8 to 10 words others can understand.,6,17,2234
+732,"Says ""hi,"" ""bye,"" & ""please"" when asked","{NAME} says ""hi,"" ""bye,"" & ""please"" when asked.",6,17,2336
+733,Use gestures & words to communicate thoughts,"{NAME} uses gestures & words to communicate thoughts such as pointing & saying ""cup"" to show you that {HESHE} wants water.",6,17,2331
+734,Can names some objects,{NAME} can names some objects such as cup.,6,17,2330
+735,"Frequently says ""no""","{NAME} frequently says ""no"".",6,18,2421
+736,Connects two words to communicate a thought,"{NAME} puts two words together such as ""car boo-boo"" for broken toy car. This is called telegraphic speech.",6,18,2455
+737,Use a variety of single words,{NAME} use a variety of single words.,6,18,2458
+738,Has a 20-word vocabulary,{NAME} has a 20-word vocabulary.,6,18,2455
+739,Can use words to respond to simple questions,"{NAME} can use words to respond to simple questions about {HISHER} choices such as ""Do you want juice or water?""",6,18,2456
+740,Understands 20-50 words,{NAME} understands 20-50 words.,6,18,2454
+741,Refers to {HIMSELFHERSELF} by name,{NAME} refers to {HIMSELFHERSELF} by name.,6,19,2554
+742,Uses words to point out something interesting,{NAME} uses words to point out something interesting such as bug on the sidewalk.,6,19,2557
+743,Can names things you have seen together,{NAME} can names the things you have seen together like when on a walk such as a dog or firetruck.,6,19,2555
+744,Begins to use verbs,"{NAME} uses verbs like ""do,"" help,"" ""go"".",6,19,2556
+745,Uses words to request food or drink,{NAME} uses words to request food or drink.,6,19,2570
+746,Repeats new words ,{NAME} repeats new words.,6,20,2667
+747,Says the names of 2 colors,{NAME} says the names of 2 colors.,6,20,2668
+748,Uses adjectives,"{NAME} uses descriptive words such as ""hot"", ""dirty"", ""big"".",6,20,2669
+749,Uses words for frequented places,"{NAME} uses words for frequented places like ""park"".",6,20,2670
+750,Uses names for family & familiar people,{NAME} uses names for family & familiar people.,6,20,2599
+751,Says two-word sentences,{NAME} uses 2 word sentences.,6,21,2776
+752,Understands 50-100 words,{NAME} understands 50-100 words.,6,21,2777
+753,Has 50-word vocabulary,{NAME} has 50-word vocabulary.,6,21,2776
+754,Uses new words weekly,{NAME} uses new words every week.,6,21,2779
+755,Responds to simple questions,"{NAME} responds to simple questions such as ""Who is that?"", ""Where is your ball?""",6,22,2878
+756,Uses words to express feelings,"{NAME} uses words to express feelings such as ""I am mad.""",6,22,2880
+757,Points to body parts when named,"{NAME} points to body parts when named such as mouth, nose, & eyes.",6,23,2917
+758,Can say {HISHER} name,{NAME} can say {HISHER} name.,6,23,2996
+759,Uses phrases to ask questions,"{NAME} uses phrases to ask questions such as ""What's that?""",6,23,2977
+760,Uses phrases to ask for help,"{NAME} uses phrases to ask for help such as ""Mommy help!""",6,23,2978
+761,Asks for names of things,{NAME} asks for names of things.,6,23,2977
+762,Talks in a way that imitates the flow of a conversation,{NAME} talks in a way that imitates the flow of a conversation.,6,24,3073
+763,Uses prepositions to describe object's location,"{NAME} uses words like ""in"", ""out"", ""off"", or ""on"" to describes and object's location.",6,24,3028
+764,Uses some pronouns,"{NAME} uses ""I"", ""me"" & ""you"".",6,24,3076
+765,Uses words to describe something that is not in sight,"{NAME} uses words to describe something that is not in sight like ""doggie gone"".",6,24,3075
+766,Has 100-word vocabulary,{NAME} has 100-word vocabulary.,6,24,3077
+767,Understands 200-300 words,{NAME} understands 200-300 words.,6,24,3080
+768,Mimics others inflections & gestures,{NAME} mimics others inflections in speech & hand gestures.,6,25,3135
+769,Begins to use conjunctions,"{NAME} is beginning to use conjunctions such as ""and"".",6,25,3167
+770,"Uses ""k,"" ""g,"" ""f,""""t,"" ""d,"" and ""n"" in words","{NAME} uses ""k"", ""g"", ""f"", ""t"", ""d"", & ""n"" in words such as ""kitten"".",6,26,3260
+771,Starts to say adjectives for size & color,"{NAME} starts to say adjectives for size & color such as ""big"" & ""yellow"".",6,27,3348
+772,"Says ""me"" & ""mine""","{NAME} says ""me"" & ""mine"".",6,27,3352
+773,Uses words to explain which objects belong to whom,"{NAME} uses possessives and possessive pronouns to explain which objects belong to whom such as ""my cup"" or ""mommy's shoe"".",6,28,3445
+774,Has memorized & can recite letters of the alphabet,"{NAME} has memorized & can recite letters of the alphabet, but doesn't recognize the letters.",6,29,3539
+775,Has a 450-word vocabulary,{NAME} has a 450-word vocabulary.,6,30,3655
+776,Says 3-word sentences,{NAME} says 3-word sentences.,6,30,3657
+777,Recites rhymes & sings along with songs,{NAME} recites rhymes & sings along with songs.,6,30,3656
+778,Is able to say all of the syllables in a multi-syllabic words,"{NAME} is able to say all of the syllables in a multi-syllabic words like ""umbrella"" without dropping any syllables such as ""brella"".",6,31,3765
+779,Says all vowels,{NAME} is able to say all of the vowel sounds,6,31,3767
+780,"Adds ""s"" sound to words to create plurals","{NAME} adds ""s"" sound to words to create plurals.",6,32,1205
+781,Says 18 different consonants in 10 minutes,"When {NAME} talks, {HESHE} has a large enough vocabulary to include 10 different consonants in a 10 minute period.",6,32,3875
+782,Uses more pronouns,"{NAME} uses pronouns such as I, me, mine, you, yours, he, she, we, it.",6,33,1558
+783,Says 4-word sentences,{NAME} says 4-word sentences.,6,33,1552
+784,"Uses past tense by adding ""d"" sound to verbs","{NAME} uses past tense by adding ""d"" sound to verbs such as ""cooked"".",6,34,4051
+785,Recognizes & can name a friend,{NAME} recognizes & can name a friend.,6,34,4007
+786,"Asks ""What"" or ""Where""","{NAME} asks ""What"" or ""Where"" questions.",6,35,4179
+787,"Adds ""-ing"" to some verbs","{NAME} adds ""-ing"" to some verbs such as ""going"".",6,35,4160
+788,Says 4 to 5-word sentences,{NAME} says 4 to 5-word sentences.,6,36,4265
+789,Has 900-1000 word vocabulary,{NAME} has 900-1000 word vocabulary.,6,36,4266
+790,Correctly uses all vowels,{NAME} correctly uses all vowels.,6,36,4271
+791,"Correctly use some consonants ""p"", ""m"", ""h"", ""n"", ""w""","{NAME} correctly use some consonants ""p"", ""m"", ""h"", ""n"", ""w"".",6,36,4270
+792,"Asks ""Why"" & ""Who""","{NAME} asks ""Why"" & ""Who"".",6,37,
+793,Strangers can understand what {HESHE} is saying,{NAME} should be able to be understood by and adult outside of household 75% of the time.,6,37,
+794,Uses more pronouns,"{NAME} uses pronouns such as they, us, hers, his, them and her.",6,37,
+795,Has memorized & can recite numbers 1 - 10,{NAME} has memorized & can recite numbers 1 - 10.,6,38,
+796,Says rhyming words,"{NAME} says rhyming words like ""hat-cat"".",6,38,
+797,Can tell you what happened when you are out of the room,{NAME} can tell you what happened when you are out of the room.,6,39,
+798,Articulates well enough that strangers can understand,{NAME} articulates well enough that strangers can understand.,6,40,
+799,Talks about what happened during the day,{NAME} can talk about what happened during the day.,6,40,
+800,Can name familiar things,{NAME} can name familiar things.,6,41,
+801,Responds to you when you call from another room,{NAME} responds to you when you call from another room.,6,41,
+802,Can retell favorite stories,{NAME} can retell favorite stories.,6,42,
+803,Begins to understand some concepts of time,"{NAME} is beginning to understand time concepts of ""soon"", ""later"", or ""wait"".",6,43,
+804,Can tell you {HISHER} full name,{NAME} can tell you {HISHER} full name.,6,44,
+805,Uses more pronouns,"{NAME} uses pronouns such as its, our, him, myself, yourself, ours, their, and theirs.",6,44,
+806,"Uses ""please"" & ""thank you""","{NAME} uses ""please"" & ""thank you"".",6,45,
+807,Knows & can tell you {HISHER} age,{NAME} knows & can tell you {HISHER} age.,6,45,
+808,Can have 2 to 3 sentence conversation,{NAME} can have 2-3 sentence conversation.,6,46,
+809,Understands long sentences,{NAME} understands long sentences.,6,46,
+810,Says 5 or more word sentences,{NAME} says 5 or more word sentences.,6,47,
+811,Has 1500 - 2500 word vocabulary,{NAME} has 1500 - 2500 word vocabulary.,6,47,
+812,Uses more pronouns,"{NAME} uses pronouns such as herself, himself, itself, ourselves, yourselves, and themselves.",6,47,
