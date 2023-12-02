@@ -57,6 +57,7 @@ st.markdown(
 @st.cache_data()
 def get_datasets():
     DevelopmentCategory = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/DevelopmentCategory.csv")
+    Milestones = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Milestones.csv")
         
     return DevelopmentCategory
     
