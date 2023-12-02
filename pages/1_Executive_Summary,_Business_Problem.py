@@ -56,7 +56,7 @@ def get_datasets():
 with datasets:
     DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
 
-with milestone:
-    st.header('Choose a Milestone')
-    milestone_titles = Milestones['Title']
-    option = st.selectbox('Choose a Milestone', milestone_titles)
+#with milestone:
+#    st.header('Choose a Milestone')
+#    milestone_titles = Milestones['Title']
+#    option = st.selectbox('Choose a Milestone', milestone_titles)
