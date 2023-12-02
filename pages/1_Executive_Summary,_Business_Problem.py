@@ -27,11 +27,11 @@ import string
 from keybert import KeyBERT
 from PIL import Image
 
-st.set_page_config(page_title='Executive Summary, Business Problem', layout="centered")
-st.sidebar.header('Executive Summary, Business Problem')
+st.set_page_config(page_title='Choose a Milestone', layout="centered")
+st.sidebar.header('Choose a Milestone')
 
 header = st.container()
-exec_summary = st.container()
+milestone = st.container()
 business_prob = st.container()
 datasets = st.container()
 eda = st.container()
@@ -54,32 +54,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-with exec_summary:
-    st.header('Executive Summary')
-    st.markdown(
-        """
-        - Sponsor is Power of Patients
-            - Provide online portal for Traumatic Brain Injury (TBI) patients to track symptoms
-        - Exploratory Data Analysis (EDA) of categorical variables in Python
-        - Text mining algorithms considered:
-            - Latent Dirichlet Allocation (LDA)
-            - Latent Semantic Indexing (LSI)
-            - Bidirectional Encoder Representations from Transformers (BERT)
-        - Recommended model is BERT
-        - Final deliverable: Streamlit application
-            - Will serve as front-end for uploading new data and interacting with model
-        """)
+@st.cache_data()
+def get_datasets():
+    DevelopmentCategory = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=DevelopmentCategory)
+    Milestones = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=Milestones)
+    AgeGroup = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=AgeGroup)
+    Exercises = pd.read_excel("https://raw.githubusercontent.com/bennett1993/ALY6980/main/TablesForStreamlit.xlsx", sheet_name=Exercises)
+        
+    return DevelopmentCategory, Milestones, AgeGroup, Exercises
+    
+with datasets:
+    DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
 
-with business_prob:
-    st.header('Business Problem')
-    st.markdown(
-        """
-        - Symptom tracking system has many open-ended fields
-            - Valuable information is hidden in these fields
-        - Power of Patients needs to parse through open-ended fields and extract important information
-        - Objective: develop word banks for each patient that hold key words and phrases
-        - Word banks can be used to:
-            - Evaluate how patients are responding to treatments and to prevent neuro-fatigue
-            - Make exhaustive lists for dropdown fields, eliminating need for an open-ended 'other' field
-            - Make suggestions for open-ended fields, so patients don’t have to type out everything (typing could be very difficult for them)
-        """)
+with milestone:
+    st.header('Choose a Milestone')
+    milestone_titles = Milestones['Title']
+    option = st.selectbox('Choose a Milestone', milestone_titles)

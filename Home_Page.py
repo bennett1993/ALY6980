@@ -56,10 +56,10 @@ st.markdown(
 
 with header:
     st.title('ALY 6980 XN Project')
-    st.write('TBI Patient Keyword Extraction')
-    st.write('Aytaj Khankishiyeva, Bennett Furman, Biran Fan, Jacob Vandergriff')
+    st.write('Fledglings Flight')
+    st.write('Bennett Furman, Sam Lurie, Srivaths Ganesh Rao Mahadikar')
     st.write('Welcome to our Streamlit Application!')
-    st.write('This Streamlit application is linked to this GitHub repository: https://github.com/bennett1993/ALY6080')
+    st.write('This Streamlit application is linked to this GitHub repository: https://github.com/bennett1993/ALY6980')
     
     image = Image.open('image15.png')
     st.image(image)
