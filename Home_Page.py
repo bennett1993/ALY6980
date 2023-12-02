@@ -55,7 +55,7 @@ st.markdown(
 )
 
 with header:
-    st.title('ALY 6080 XN Project')
+    st.title('ALY 6980 XN Project')
     st.write('TBI Patient Keyword Extraction')
     st.write('Aytaj Khankishiyeva, Bennett Furman, Biran Fan, Jacob Vandergriff')
     st.write('Welcome to our Streamlit Application!')
