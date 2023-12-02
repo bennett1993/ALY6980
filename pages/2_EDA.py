@@ -58,9 +58,10 @@ st.markdown(
 def get_datasets():
     DevelopmentCategory = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/DevelopmentCategory.csv")
     Milestones = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Milestones.csv")
+    AgeGroup = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/AgeGroup.csv")
+    Exercises = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Exercises.csv")
         
-    return DevelopmentCategory
+    return DevelopmentCategory, Milestones, AgeGroup, Exercises
     
-
 with datasets:
-    DevelopmentCategory = get_datasets()
+    DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
