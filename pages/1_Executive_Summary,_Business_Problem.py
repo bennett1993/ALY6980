@@ -3,29 +3,29 @@ pd.set_option('display.max_columns', 500)
 from pathlib import Path
 import os
 import glob
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
+#from IPython.core.interactiveshell import InteractiveShell
+#InteractiveShell.ast_node_interactivity = "all"
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(font_scale=1.5)
 import nbconvert
 import numpy as np
 import scipy
-import statsmodels.formula.api as smf
-import statsmodels.api as sm
+#import statsmodels.formula.api as smf
+#import statsmodels.api as sm
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
 from datetime import date as dt
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-from nltk.corpus import stopwords
-from nltk.stem.wordnet import WordNetLemmatizer
-import string
-from keybert import KeyBERT
-from PIL import Image
+#import nltk
+#nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('omw-1.4')
+#from nltk.corpus import stopwords
+#from nltk.stem.wordnet import WordNetLemmatizer
+#import string
+#from keybert import KeyBERT
+#from PIL import Image
 
 st.set_page_config(page_title='Choose a Milestone', layout="centered")
 st.sidebar.header('Choose a Milestone')
