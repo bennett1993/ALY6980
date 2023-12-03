@@ -101,7 +101,10 @@ with recommendations:
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower)]
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
-    skills_combined = matching_rows.groupby('exerciseID')['Skills'].agg(lambda x: ', '.join(x))[['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']]
+    skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': ', '.join, 'Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
+
+    new_order = ['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']
+    skills_combined = skills_combined[new_order]
 
     st.write("Your child's recommended exercises are: ",skills_combined)
 
