@@ -79,7 +79,11 @@ with recommendations:
     range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,6,1)
 
     string_to_search = skills.str.cat(sep=' ')
-    st.write(string_to_search)
+    string_lower = string_to_search.lower()
+
+    model = KeyBERT()
+    keywords = model.extract_keywords(string_lower)
+    st.write(keywords)
 
 
     
