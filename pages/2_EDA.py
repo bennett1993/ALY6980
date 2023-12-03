@@ -65,8 +65,8 @@ with milestones:
 
     option_row = Milestones[Milestones['Title'] == option]
     exerciseID = option_row['exerciseID'].iloc[0]
-    #exerciseID_row = Exercises[Exercises['exerciseID'] == exerciseID]
-    title_text = option_row['Title'].iloc[0]
+    Exercises_row = Exercises[Exercises['exerciseID'] == exerciseID]
+    title_text = Exercises_row['Title'].iloc[0]
     skills = Exercises[Exercises['exerciseID'] == exerciseID]['Skills']
     age = option_row['AgeGroup'].iloc[0]
 
