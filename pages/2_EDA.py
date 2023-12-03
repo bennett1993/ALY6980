@@ -96,6 +96,8 @@ with recommendations:
 
     string_to_search = skills.str.cat(sep=' ')
     string_lower = string_to_search.lower()
+
+    st.write('The skills string is: ', string_lower)
     
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
