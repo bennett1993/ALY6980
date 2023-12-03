@@ -106,8 +106,7 @@ with recommendations:
     new_order = ['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']
     skills_combined = skills_combined.reindex(columns=new_order)
 
-    table_width = 800
-    st.write("Your child's recommended exercises are: ", skills_combined.to_html().replace('<table', f'<table style="width: {table_width}px;"'))
+    st.write("Your child's recommended exercises are: ", skills_combined)
 
 
 
