@@ -32,6 +32,7 @@ st.sidebar.header('EDA')
 
 datasets = st.container()
 milestones = st.container()
+recommendations = st.container()
 
 st.markdown(
     """
@@ -73,6 +74,9 @@ with milestones:
     st.write('This title of this exercise is: ', title_text)
     st.write('The age group for the milestone you chose is: ', age, ' months old')
     st.write('The associated skills are: ', skills)
+
+with recommendations:
+    range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,5,1)
 
 
     
