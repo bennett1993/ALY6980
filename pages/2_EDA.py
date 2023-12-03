@@ -96,12 +96,14 @@ with recommendations:
     string_to_search = skills.str.cat(sep=' ')
     string_lower = string_to_search.lower()
     
+    st.write('Determining recommended exercises. Takes a minute')
     model = KeyBERT()
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower)]
 
-    matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
+    matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))][['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']]
+    skills_combined = matching_rows.groupby('exerciseID')['Skills'].agg(lambda x: ', '.join(x))
 
-    st.write(matching_rows)
+    st.write("Your child's recommended exercises are: ",skills_combined)
 
 
 
