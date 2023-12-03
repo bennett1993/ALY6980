@@ -75,16 +75,34 @@ with milestones:
     st.write('The age group for the milestone you chose is: ', age, ' months old')
     st.write('The associated skills are: ', skills)
 
+def contains_keywords(text, keywords):
+    return any(keyword in text for keyword in keywords)
+
 with recommendations:
-    range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,6,1)
+    below = st.slider("How many months below your child's age do you want to receive recommended exercises for?",1,6,1)
+    above = st.slider("How many months above your child's age do you want to receive recommended exercises for?",1,6,1)
+
+    age_low = age - below
+    age_high = age + above
+
+    if age_low < 0:
+        age_low = 0
+    
+    if age_high > 36:
+        age_high = 36
+
+    Exercises_filtered = Exercises[(Exercises['AgeGroup'] >= age_low) & (Exercises['AgeGroup'] <= age_high)]
 
     string_to_search = skills.str.cat(sep=' ')
     string_lower = string_to_search.lower()
-
-    st.write('Extracting keywords from relevant skills. Takes a minute')
+    
     model = KeyBERT()
-    keywords = model.extract_keywords(string_lower)
-    st.write(keywords)
+    keywords = [keyword for keyword, score in model.extract_keywords(string_lower)]
+
+    matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
+
+    st.write(matching_rows)
+
 
 
     
