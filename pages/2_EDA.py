@@ -99,7 +99,7 @@ with recommendations:
     
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
-    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, 1))]
+    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, 2))]
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
     skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': '; '.join, 'exerciseID':'first','Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
