@@ -60,7 +60,7 @@ with milestones:
     st.header('Choose a Milestone')
     milestone_titles = Milestones['Title']
 
-    option = st.selectbox('Choose a Milestone', milestone_titles, index = None)
+    option = st.selectbox('Choose a Milestone', milestone_titles)
 
     option_row = Milestones[Milestones['Title'] == option]
     exerciseID = option_row['ID'].iloc[0]
