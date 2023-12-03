@@ -99,8 +99,8 @@ with recommendations:
 
     st.write('The skills string is: ', string_lower)
     
-    ngram_max = st.slider("Please choose the maximum number of words you want in keyword phrases",1,3,1,value=2)
-    num_keywords = st.slider("Please choose the number of keywords and key phrases that you would like to return",5,20,1,value=10)
+    ngram_max = st.slider("Please choose the maximum number of words you want in keyword phrases",min_value=1,max_value=3,step=1,value=2)
+    num_keywords = st.slider("Please choose the number of keywords and key phrases that you would like to return",min_value=5,max_value=20,step=1,value=10)
 
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
