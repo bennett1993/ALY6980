@@ -66,7 +66,7 @@ with milestones:
     exerciseID = option_row['ID'].iloc[0]
     exerciseID_row = Exercises[Exercises['exerciseID'] == exerciseID]
     title_text = exerciseID_row['Title'].iloc[0]
-    skills = Exercises[Exercises['exerciseID'] == exerciseID]
+    skills = Exercises[Exercises['exerciseID'] == exerciseID]['Skills']
     age = option_row['AgeGroup'].iloc[0]
 
     st.write('The exercise ID for the milestone you chose is: ', exerciseID)
