@@ -99,9 +99,12 @@ with recommendations:
 
     st.write('The skills string is: ', string_lower)
     
+    ngram_max = st.slider("Please choose the maximum number of words you want in keyword phrases",1,3,1)
+    num_keywords = st.slider("Please choose the number of keywords and key phrases that you would like to return",5,20,1)
+
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
-    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, 3),top_n=20)]
+    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, ngram_max),top_n=num_keywords)]
     st.write('The keywords and phrases in the associated skills are: ', keywords)
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
