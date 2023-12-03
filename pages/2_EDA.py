@@ -60,8 +60,10 @@ with milestones:
     st.header('Choose a Milestone')
     milestone_titles = Milestones['Title']
     option = st.selectbox('Choose a Milestone', milestone_titles)
-    #exerciseID = Milestones.loc[option, 'ID']
-    #age = Milestones.loc[option, 'AgeGroup']
-    selected_row = Milestones[Milestones['Title'] == option]
-    name_value = selected_row['ID'].iloc[0]
-    st.write('exerciseID:', selected_row)
+
+    if option:
+        option_row = Milestones[Milestones['Title'] == option]
+        exerciseID = option_row['ID'].iloc[0]
+        age = option_row['AgeGroup'].iloc[0]
+        st.write('The exercise ID for the milestone you chose is ', exerciseID)
+        st.write('The age group for the milestone you chose is ', age)
