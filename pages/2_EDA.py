@@ -104,7 +104,7 @@ with recommendations:
     skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': ', '.join, 'Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
 
     new_order = ['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']
-    skills_combined = skills_combined[new_order]
+    skills_combined = skills_combined.reorder_levels(new_order, axis=1)
 
     st.write("Your child's recommended exercises are: ",skills_combined)
 
