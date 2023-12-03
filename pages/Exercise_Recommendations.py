@@ -58,10 +58,10 @@ with datasets:
     DevelopmentCategory, Milestones, AgeGroup, Exercises = get_datasets()  
 
 with milestones:
-    st.header('Choose a Milestone')
+    st.header('Selecting Milestone and Determining Associated Characteristics')
     milestone_titles = Milestones['Title']
 
-    option = st.selectbox('Choose a Milestone', milestone_titles)
+    option = st.selectbox('Please choose a milestone', milestone_titles)
 
     option_row = Milestones[Milestones['Title'] == option]
 
@@ -80,6 +80,7 @@ def contains_keywords(text, keywords):
     return any(keyword in text for keyword in keywords)
 
 with recommendations:
+    st.header('Choosing Age Range for Recommended Exercises')
     below = st.slider("How many months below your child's age do you want to receive recommended exercises for?",1,6,1)
     above = st.slider("How many months above your child's age do you want to receive recommended exercises for?",1,6,1)
 
@@ -99,9 +100,11 @@ with recommendations:
 
     st.write('The skills string is: ', string_lower)
     
+    st.header('Choosing parameters of keyBERT model extract_keywords function')
     ngram_max = st.slider("Please choose the maximum number of words you want in keyword phrases",min_value=1,max_value=3,step=1,value=2)
     num_keywords = st.slider("Please choose the number of keywords and key phrases that you would like to return",min_value=5,max_value=20,step=1,value=10)
 
+    st.header('Recommended Exercises')
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, ngram_max),top_n=num_keywords)]
@@ -114,7 +117,3 @@ with recommendations:
     skills_combined = skills_combined.reindex(columns=new_order)
 
     st.write("Your child's recommended exercises are: ", skills_combined)
-
-
-
-    
