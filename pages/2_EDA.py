@@ -101,7 +101,7 @@ with recommendations:
     
     st.write('Determining recommended exercises. Takes a minute...')
     model = KeyBERT()
-    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, 2))]
+    keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, 2),top_n=10)]
     st.write('The keywords and phrases in the associated skills are: ', keywords)
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
