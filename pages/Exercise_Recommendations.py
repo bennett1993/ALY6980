@@ -104,11 +104,14 @@ with recommendations:
     ngram_max = st.slider("Please choose the maximum number of words you want in keyword phrases",min_value=1,max_value=3,step=1,value=2)
     num_keywords = st.slider("Please choose the number of keywords and key phrases that you would like to return",min_value=5,max_value=20,step=1,value=10)
 
-    st.header('Recommended Exercises')
-    st.write('Determining recommended exercises. Takes a minute...')
+    st.header('Keywords and Key Phrases in Skills')
+    st.write('Determining keywords and key phrases. Takes a minute...')
     model = KeyBERT()
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower,keyphrase_ngram_range=(1, ngram_max),top_n=num_keywords)]
     st.write('The keywords and phrases in the associated skills are: ', keywords)
+
+    st.header('Exercise Recommendations')
+    st.write('Determining exercise recommendations. Takes a minute...')
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
     skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': '; '.join, 'exerciseID':'first','Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
