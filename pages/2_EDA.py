@@ -101,7 +101,7 @@ with recommendations:
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower)]
 
     matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
-    skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': '; '.join, 'Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
+    skills_combined = matching_rows.groupby('exerciseID').agg({'Skills': '; '.join, 'exerciseID':'first','Title': 'first', 'DevelopmentCategory': 'first', 'AgeGroup': 'first'})
 
     new_order = ['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']
     skills_combined = skills_combined.reindex(columns=new_order)
