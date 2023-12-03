@@ -64,16 +64,18 @@ with milestones:
     option = st.selectbox('Choose a Milestone', milestone_titles)
 
     option_row = Milestones[Milestones['Title'] == option]
-    exerciseID = option_row['exerciseID1'].iloc[0]
-    Exercises_row = Exercises[Exercises['exerciseID'] == exerciseID]
-    title_text = Exercises_row['Title'].iloc[0]
-    skills = Exercises[Exercises['exerciseID'] == exerciseID]['Skills']
-    age = option_row['AgeGroup'].iloc[0]
+    st.write(option_row)
 
-    st.write('The exercise ID for the milestone you chose is: ', exerciseID)
-    st.write('This title of this exercise is: ', title_text)
-    st.write('The age group for the milestone you chose is: ', age, ' months old')
-    st.write('The associated skills are: ', skills)
+    # exerciseID = option_row['exerciseID1'].iloc[0]
+    # Exercises_row = Exercises[Exercises['exerciseID'] == exerciseID]
+    # title_text = Exercises_row['Title'].iloc[0]
+    # skills = Exercises[Exercises['exerciseID'] == exerciseID]['Skills']
+    # age = option_row['AgeGroup'].iloc[0]
+
+    # st.write('The exercise ID for the milestone you chose is: ', exerciseID)
+    # st.write('This title of this exercise is: ', title_text)
+    # st.write('The age group for the milestone you chose is: ', age, ' months old')
+    # st.write('The associated skills are: ', skills)
 
 def contains_keywords(text, keywords):
     return any(keyword in text for keyword in keywords)
