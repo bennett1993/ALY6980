@@ -100,8 +100,8 @@ with recommendations:
     model = KeyBERT()
     keywords = [keyword for keyword, score in model.extract_keywords(string_lower)]
 
-    matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))][['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']]
-    skills_combined = matching_rows.groupby('exerciseID')['Skills'].agg(lambda x: ', '.join(x))
+    matching_rows = Exercises_filtered[Exercises_filtered['Skills'].apply(lambda x: contains_keywords(x, keywords))]
+    skills_combined = matching_rows.groupby('exerciseID')['Skills'].agg(lambda x: ', '.join(x))[['exerciseID','Title','DevelopmentCategory','AgeGroup','Skills']]
 
     st.write("Your child's recommended exercises are: ",skills_combined)
 
