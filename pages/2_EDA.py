@@ -64,7 +64,6 @@ with milestones:
     option = st.selectbox('Choose a Milestone', milestone_titles)
 
     option_row = Milestones[Milestones['Title'] == option]
-    st.write(option_row)
 
     exerciseID = option_row['exerciseID'].iloc[0]
     Exercises_row = Exercises[Exercises['exerciseID'] == exerciseID]
