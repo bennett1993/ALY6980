@@ -64,9 +64,9 @@ with milestones:
     option = st.selectbox('Choose a Milestone', milestone_titles)
 
     option_row = Milestones[Milestones['Title'] == option]
-    exerciseID = option_row['ID'].iloc[0]
-    exerciseID_row = Exercises[Exercises['exerciseID'] == exerciseID]
-    title_text = exerciseID_row['Title'].iloc[0]
+    exerciseID = option_row['exerciseID'].iloc[0]
+    #exerciseID_row = Exercises[Exercises['exerciseID'] == exerciseID]
+    title_text = option_row['Title'].iloc[0]
     skills = Exercises[Exercises['exerciseID'] == exerciseID]['Skills']
     age = option_row['AgeGroup'].iloc[0]
 
