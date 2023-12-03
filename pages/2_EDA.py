@@ -76,7 +76,10 @@ with milestones:
     st.write('The associated skills are: ', skills)
 
 with recommendations:
-    range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,5,1)
+    range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,6,1)
+
+    string_to_search = skills['Skills'].str.cat(sep=' ')
+    st.write(string_to_search)
 
 
     
