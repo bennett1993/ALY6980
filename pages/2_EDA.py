@@ -64,6 +64,11 @@ with milestones:
 
     option_row = Milestones[Milestones['Title'] == option]
     exerciseID = option_row['ID'].iloc[0]
+    title_row = Exercises[Exercises['Title'] == exerciseID]
+    title_text = title_row['Title'].iloc[0]
     age = option_row['AgeGroup'].iloc[0]
+
     st.write('The exercise ID for the milestone you chose is ', exerciseID)
+    st.write('This title of this exercise is ', title_text)
     st.write('The age group for the milestone you chose is ', age, ' months old')
+    
