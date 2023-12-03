@@ -1,10 +1,10 @@
 import pandas as pd
-pd.set_option('display.max_columns', 500)
-from pathlib import Path
-import os
-import glob
+# pd.set_option('display.max_columns', 500)
+# from pathlib import Path
+# import os
+# import glob
 from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
+InteractiveShell.ast_node_interactivity = "all" 
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(font_scale=1.5)
@@ -17,18 +17,18 @@ import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
 from datetime import date as dt
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-from nltk.corpus import stopwords
-from nltk.stem.wordnet import WordNetLemmatizer
+# import nltk
+# nltk.download('stopwords')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+# from nltk.corpus import stopwords
+# from nltk.stem.wordnet import WordNetLemmatizer
 import string
 from keybert import KeyBERT
 from PIL import Image
 
-st.set_page_config(page_title='EDA', layout="centered")
-st.sidebar.header('EDA')
+st.set_page_config(page_title='Exercise Recommendations', layout="centered")
+st.sidebar.header('Exercise Recommendations')
 
 datasets = st.container()
 milestones = st.container()
