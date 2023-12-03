@@ -81,6 +81,7 @@ with recommendations:
     string_to_search = skills.str.cat(sep=' ')
     string_lower = string_to_search.lower()
 
+    st.write('Extracting keywords from relevant skills. Takes a minute')
     model = KeyBERT()
     keywords = model.extract_keywords(string_lower)
     st.write(keywords)
