@@ -92,7 +92,7 @@ with recommendations:
     if age_high > 36:
         age_high = 36
 
-    Exercises_filtered = Exercises[(Exercises['AgeGroup'] >= age_low) & (Exercises['AgeGroup'] <= age_high)]
+    Exercises_filtered = Exercises[(Exercises['AgeGroup'] >= age_low) & (Exercises['AgeGroup'] <= age_high) & (Exercises['exerciseID'] != exerciseID)]
 
     string_to_search = skills.str.cat(sep=' ')
     string_lower = string_to_search.lower()
