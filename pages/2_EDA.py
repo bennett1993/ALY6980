@@ -45,7 +45,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#@st.cache_data()
+@st.cache_data()
 def get_datasets():
     DevelopmentCategory = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/DevelopmentCategory.csv")
     Milestones = pd.read_csv("https://raw.githubusercontent.com/bennett1993/ALY6980/main/Milestones.csv")
@@ -78,8 +78,8 @@ with milestones:
 with recommendations:
     range = st.slider("How many months below or above your child's age do you want to receive recommended exercises for?",0,6,1)
 
-    string_to_search = skills['Skills'].str.cat(sep=' ')
-    st.write(string_to_search)
+    #string_to_search = skills['Skills'].str.cat(sep=' ')
+    st.write(type(skills))
 
 
     
