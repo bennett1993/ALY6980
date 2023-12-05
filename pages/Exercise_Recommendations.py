@@ -67,7 +67,8 @@ with milestones:
     st.write('The associated skills are: ', skills)
 
 def contains_keywords(text, keywords):
-    return all(keyword in text for keyword in keywords)
+    #return all(keyword in text for keyword in keywords)
+    return sum(keyword in text for keyword in keywords) == 1
 
 with recommendations:
     st.header('Choosing Age Range for Recommended Exercises')
