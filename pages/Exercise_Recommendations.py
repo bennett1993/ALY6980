@@ -1,8 +1,4 @@
 import pandas as pd
-# pd.set_option('display.max_columns', 500)
-# from pathlib import Path
-# import os
-# import glob
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all" 
 import matplotlib.pyplot as plt
@@ -17,12 +13,6 @@ import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
 from datetime import date as dt
-# import nltk
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
-# from nltk.corpus import stopwords
-# from nltk.stem.wordnet import WordNetLemmatizer
 import string
 from keybert import KeyBERT
 from PIL import Image
@@ -77,7 +67,8 @@ with milestones:
     st.write('The associated skills are: ', skills)
 
 def contains_keywords(text, keywords):
-    return any(keyword in text for keyword in keywords)
+    #return any(keyword in text for keyword in keywords)
+    return (keyword in text for keyword in keywords)
 
 with recommendations:
     st.header('Choosing Age Range for Recommended Exercises')
